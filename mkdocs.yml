@@ -1,0 +1,117 @@
+site_name: DPDP Act Compliance Suite
+site_description: Comprehensive agents and skills for Digital Personal Data Protection Act, 2023 compliance
+site_url: "" # Set to deployment URL before publishing
+copyright: "© 2025–2026 DPDP Compliance Suite Contributors — CC BY-SA 4.0"
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+  - tags
+
+extra:
+  status:
+    new: Recently added
+
+nav:
+  - Home: README.md
+  - Decision Tree: DECISION_TREE.md
+  - Integration Guide: INTEGRATION.md
+  - Agents:
+      - Overview: agents/README.md
+      - Anonymisation & Pseudonymisation: agents/dpdp-anonymisation-pseudonymisation-agent.md
+      - Audit Compliance: agents/dpdp-audit-compliance-agent.md
+      - Breach Notification: agents/dpdp-breach-notification-agent.md
+      - Children Data: agents/dpdp-children-data-agent.md
+      - Compliance Roadmap: agents/dpdp-compliance-roadmap-agent.md
+      - Consent Management: agents/dpdp-consent-management-agent.md
+      - Cross-Border Transfer: agents/dpdp-cross-border-transfer-agent.md
+      - Data Localisation: agents/dpdp-data-localisation-agent.md
+      - DPIA: agents/dpdp-dpia-agent.md
+      - DPBI Complaint Response: agents/dpdp-dpbi-complaint-response-agent.md
+      - Legitimate Use: agents/dpdp-legitimate-use-agent.md
+      - Policy Document Generator: agents/dpdp-policy-document-generator-agent.md
+      - Privacy (MeITY): agents/meity-dpdp-privacy-agent.md
+      - Regulatory Monitoring: agents/dpdp-regulatory-monitoring-agent.md
+      - Rights Request: agents/dpdp-rights-request-agent.md
+      - SDF Compliance: agents/dpdp-sdf-compliance-agent.md
+      - Vendor & Processor: agents/dpdp-vendor-processor-agent.md
+  - Skills:
+      - Overview: skills/README.md
+      - AI/ML Ethics: skills/dpdp-ai-ml-ethics-skill.md
+      - Audit Checklist: skills/dpdp-audit-checklist-skill.md
+      - Children Data: skills/dpdp-children-data-skill.md
+      - Consent Manager: skills/dpdp-consent-manager-skill.md
+      - Contract Clauses: skills/dpdp-contract-clauses-skill.md
+      - Data Mapping & Inventory: skills/dpdp-data-mapping-inventory-skill.md
+      - DPO: skills/dpdp-dpo-skill.md
+      - Incident Response: skills/dpdp-incident-response-skill.md
+      - International Comparison: skills/dpdp-international-comparison-skill.md
+      - Legitimate Use: skills/dpdp-legitimate-use-skill.md
+      - Penalty & Enforcement: skills/dpdp-penalty-enforcement-skill.md
+      - Privacy (MeITY): skills/meity-dpdp-privacy-skill.md
+      - Privacy by Design: skills/dpdp-privacy-by-design-skill.md
+      - Privacy Programme Management: skills/dpdp-privacy-programme-management-skill.md
+      - Privacy Risk Management: skills/dpdp-privacy-risk-management-skill.md
+      - Sector-Specific: skills/dpdp-sector-specific-skill.md
+      - Training & Awareness: skills/dpdp-training-awareness-skill.md
+  - Examples:
+      - Startup App Launch: examples/scenario-startup-app-launch.md
+      - Bank SDF Designation: examples/scenario-bank-sdf-designation.md
+      - E-Commerce Data Breach: examples/scenario-ecommerce-data-breach.md
+      - Cross-Border SaaS Vendor: examples/scenario-cross-border-saas-vendor.md
+      - Government Entity Processing: examples/scenario-govt-entity-processing.md
+      - GDPR Migration: examples/scenario-gdpr-migration.md
+      - Large Employer HR: examples/scenario-large-employer-hr.md
+  - Sector Guides:
+      - Fintech & Banking: examples/sector-fintech-guide.md
+      - Healthtech & Healthcare: examples/sector-healthtech-guide.md
+      - Edtech & Education: examples/sector-edtech-guide.md
+  - Consent Notices:
+      - E-Commerce Checkout: examples/consent-notices/ecommerce-checkout.md
+      - Mobile App Onboarding: examples/consent-notices/mobile-app-onboarding.md
+      - Employee HR Data: examples/consent-notices/employee-hr.md
+      - Health Data Collection: examples/consent-notices/health-data.md
+      - Marketing Opt-In: examples/consent-notices/marketing-optin.md
+      - Parental Consent: examples/consent-notices/parental-consent.md
+      - E-Commerce Checkout (Hindi): examples/consent-notices/ecommerce-checkout-hindi.md
+  - Tools:
+      - Penalty Exposure Calculator: examples/penalty-exposure-calculator.md
+  - Reference:
+      - Self-Assessment: SELF_ASSESSMENT.md
+      - Glossary: GLOSSARY.md
+      - Rules Tracker: RULES_TRACKER.md
+      - Architecture: ARCHITECTURE.md
+      - Integration Guide: INTEGRATION.md
+      - Contributing: CONTRIBUTING.md
+      - Code of Conduct: CODE_OF_CONDUCT.md
+      - License: LICENSE
+  - Regulatory Calendar: REGULATORY_CALENDAR.md
+  - Changelog: CHANGELOG.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
