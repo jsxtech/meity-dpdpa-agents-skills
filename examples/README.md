@@ -16,9 +16,9 @@ Each example demonstrates how the agents and skills in this suite apply to real-
 | 2 | `scenario-bank-sdf-designation.md` | Bank designated as Significant Data Fiduciary | SDF Compliance, DPO, Audit |
 | 3 | `scenario-ecommerce-data-breach.md` | Data breach at an e-commerce company | Breach Notification, Incident Response, DPBI |
 | 4 | `scenario-cross-border-saas-vendor.md` | Cross-border SaaS vendor onboarding | Cross-Border Transfer, Vendor Management, Localisation |
-| 5 | `scenario-govt-entity-processing.md` | Government entity processing citizen data | Legitimate Use, Rights Request |
-| 6 | `scenario-gdpr-migration.md` | GDPR-to-DPDP migration | International Comparison, Policy Generator |
-| 7 | `scenario-large-employer-hr.md` | Large employer HR data processing | Legitimate Use, Consent, Children's Data |
+| 5 | `scenario-govt-entity-processing.md` | Government entity processing citizen data | Legitimate Use, Policy Generator, Audit |
+| 6 | `scenario-gdpr-migration.md` | GDPR-to-DPDP migration | Compliance Roadmap, Cross-Border Transfer, Audit |
+| 7 | `scenario-large-employer-hr.md` | Large employer HR data processing | Legitimate Use, Vendor Management, Policy Generator, Consent |
 
 ---
 
@@ -26,9 +26,9 @@ Each example demonstrates how the agents and skills in this suite apply to real-
 
 | # | File | Sector | Regulators Covered |
 |---|---|---|---|
-| 1 | `sector-fintech-guide.md` | Fintech & Banking | RBI, SEBI |
-| 2 | `sector-healthtech-guide.md` | Healthtech & Healthcare | NMC, ABDM |
-| 3 | `sector-edtech-guide.md` | Edtech & Education | UGC, NCERT |
+| 1 | `sector-fintech-guide.md` | Fintech & Banking | RBI |
+| 2 | `sector-healthtech-guide.md` | Healthtech & Healthcare | ABDM, ICMR |
+| 3 | `sector-edtech-guide.md` | Edtech & Education | NCPCR, CERT-In |
 
 ---
 
@@ -67,7 +67,7 @@ Ready-to-use DPDP-compliant consent notice templates in `consent-notices/`:
 | Government / state function processing | Scenario 5 (Govt Entity) |
 | Migrating from GDPR to DPDP | Scenario 6 (GDPR Migration) |
 | Employee data under DPDP | Scenario 7 (Large Employer HR) |
-| Sector-specific compliance (RBI, NMC, UGC) | Sector Guides |
+| Sector-specific compliance (RBI, ABDM, NCPCR) | Sector Guides |
 | Drafting a consent notice | Consent Notice Library |
 | Estimating penalty risk | Penalty Exposure Calculator |
 
