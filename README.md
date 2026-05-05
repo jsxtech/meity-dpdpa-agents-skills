@@ -3,6 +3,8 @@
 !!! warning "Pending DPDP Rules"
     This suite is based on the **enacted DPDP Act 2023** and the **Draft DPDP Rules 2025**. Timelines, formats, and thresholds marked with ⚠️ are best-practice assumptions that will be updated when the final Rules are gazetted by the Central Government. Always consult legal counsel for binding compliance decisions.
 
+Meity DPDPA Agents Skills Workflows Notices by Jaspal 9891156880
+
 A comprehensive collection of AI agents and skills designed to help organisations achieve and maintain compliance with India's **Digital Personal Data Protection Act, 2023**. This suite covers the full compliance lifecycle — from initial assessment and consent management to breach response and regulatory reporting.
 
 ## Quick Stats
