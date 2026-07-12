@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Children's Data Protection"
 type: "skill"
 ---
@@ -489,7 +489,7 @@ COMMUNICATION TO PARENTS:
 ## References
 
 - DPDP Act, 2023 — Section 9 (Children's Data)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - NCPCR — National Commission for Protection of Child Rights
 - UK Age Appropriate Design Code (comparative reference)
 - UNICEF Child Online Privacy Guidelines
