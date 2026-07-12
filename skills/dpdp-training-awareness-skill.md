@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Training & Awareness"
 type: "skill"
 ---
