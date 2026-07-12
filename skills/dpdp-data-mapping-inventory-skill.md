@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Data Mapping & Inventory"
 type: "skill"
 ---
@@ -348,6 +348,6 @@ DATA INVENTORY
 ## References
 
 - DPDP Act, 2023 — Sections 4, 5, 8
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27701 — Privacy Information Management (Annex B — RoPA)
 - ISO/IEC 29101 — Privacy Architecture Framework
