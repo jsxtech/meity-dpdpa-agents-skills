@@ -44,7 +44,7 @@ Step 8 → Audit Compliance Agent
 |---|---|---|
 | Credit scoring without DPIA | ₹150 crore ⚠️ (SDF penalty; DPIA recommended but not mandatory for non-SDFs) | Complete DPIA before launch (best practice) |
 | Children's data without parental consent | ₹200 crore ⚠️ (maximum per Schedule) | Age gate + parental consent flow |
-| Payment data outside India | RBI action + ₹250 crore ⚠️ (maximum per Schedule) | India-only cloud region |
+| Payment data outside India | RBI action + up to ₹50 crore (S.16 transfer — Other provisions) | India-only cloud region |
 | No privacy policy at launch | ₹50 crore ⚠️ (maximum per Schedule) | Generate via Policy Document Agent |
 
 ## Skills to Use
