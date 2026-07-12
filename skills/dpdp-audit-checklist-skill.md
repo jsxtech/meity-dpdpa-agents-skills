@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Audit Checklist"
 type: "skill"
 ---
@@ -366,6 +366,7 @@ CRITICAL NON-COMPLIANCES (must remediate immediately):
 | `/audit-consent` | Run Domain 2 — Legal basis and consent audit |
 | `/audit-notice` | Run Domain 3 — Notice and transparency audit |
 | `/audit-minimisation` | Run Domain 4 — Purpose limitation audit |
+| `/audit-quality` | Run Domain 5 — Data quality and accuracy audit |
 | `/audit-retention` | Run Domain 6 — Retention and deletion audit |
 | `/audit-security` | Run Domain 7 — Security safeguards audit |
 | `/audit-rights` | Run Domain 8 — Data Principal rights audit |
@@ -381,7 +382,7 @@ CRITICAL NON-COMPLIANCES (must remediate immediately):
 ## References
 
 - DPDP Act, 2023 — All sections
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27701 — Privacy Information Management (audit framework)
 - ISO 19011 — Guidelines for Auditing Management Systems
 - ISO/IEC 29151 — PII Protection Code of Practice
