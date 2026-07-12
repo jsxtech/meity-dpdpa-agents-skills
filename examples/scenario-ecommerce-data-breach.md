@@ -55,8 +55,8 @@ Step 8 → Compliance Roadmap Agent
 | T+0 | Breach discovered | Breach Notification |
 | T+1hr | CEO/Board notified | Breach Notification |
 | T+24hr | Parents notified (if children affected) | Children's Data |
-| T+72hr | DPBI notified ⚠️ (best practice; actual timeline per DPDP Rules when notified) | Breach Notification |
-| T+72hr | Data Principals notified ⚠️ (best practice; actual timeline per DPDP Rules when notified) | Breach Notification |
+| T+72hr | DPBI notified (72-hour statutory timeline per DPDP Rules 2025, Rule 7) | Breach Notification |
+| T+72hr | Data Principals notified (where harm is likely; per DPDP Rules 2025, Rule 7) | Breach Notification |
 | T+1wk | Processor incident report obtained | Vendor Processor |
 | T+6wk | Post-incident review complete | Audit Compliance |
 
