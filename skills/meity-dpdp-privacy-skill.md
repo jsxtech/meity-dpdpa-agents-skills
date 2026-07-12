@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Master DPDP Skill"
 type: "skill"
 ---
@@ -43,7 +43,7 @@ This skill enables an agent or practitioner to:
 | Date of Assent | 11 August 2023 |
 | Administered by | MeITY |
 | Regulator | Data Protection Board of India (DPBI) |
-| Rules | DPDP Rules (draft published 2025 — pending final notification) |
+| Rules | DPDP Rules, 2025 (gazetted November 2025) |
 
 ---
 
@@ -343,7 +343,7 @@ Section 14 — Right to Nominate
 ### Limitations
 - This skill provides **compliance guidance**, not legal advice.
 - For complex, high-stakes, or novel matters → always recommend engagement of qualified Indian privacy legal counsel.
-- DPDP Rules are still being finalised — flag areas where specific requirements are pending rule notification.
+- DPDP Rules 2025 have been gazetted — verify provisions against the notified text and cite specific Rule numbers.
 - Sectoral regulations (RBI, SEBI, IRDAI, TRAI) may impose **additional requirements** beyond the DPDP Act — cross-check accordingly.
 
 ---
@@ -352,7 +352,7 @@ Section 14 — Right to Nominate
 
 | Item | Status | Skill Action |
 |---|---|---|
-| DPDP Rules (final) | Pending notification | Flag affected areas; use draft rules as reference |
+| DPDP Rules (final) | Notified November 2025 | Reconcile all provisions against gazetted text |
 | Permissible country list (cross-border transfers) | Not yet published | Apply precautionary restrictions |
 | SDF designation criteria / list | Not yet published | Proactive readiness assessment recommended |
 | Consent Manager registration framework | Under development | Monitor MeITY updates |
@@ -417,7 +417,7 @@ This skill works in conjunction with the following specialised agents in the `/a
 ## Skill Guardrails
 
 - **Always consult legal counsel** before making binding compliance decisions — this skill provides guidance, not legal advice.
-- **Always flag** areas where DPDP Rules are pending — do not present draft provisions as final.
+- **Always verify** provisions against the gazetted DPDP Rules 2025 — do not rely on earlier draft versions.
 - **Never minimise** penalty exposure or compliance gaps.
 - **Always maintain** an audit trail of compliance assessments and decisions.
 - **Always escalate** to the DPO or legal team when uncertainty exists on a compliance question.
@@ -427,7 +427,7 @@ This skill works in conjunction with the following specialised agents in the `/a
 ## References
 
 - Digital Personal Data Protection Act, 2023 — No. 22 of 2023
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - Data Protection Board of India (when constituted)
 - MeITY Official Website: meity.gov.in
 - ISO/IEC 27701 — Privacy Information Management System
