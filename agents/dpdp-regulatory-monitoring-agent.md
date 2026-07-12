@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Regulatory Monitoring"
 type: "agent"
 ---
@@ -150,46 +150,45 @@ MONITORING ONGOING:
 
 ---
 
-### Workflow 3: DPDP Rules Monitoring (Priority Item)
+### Workflow 3: DPDP Rules Compliance Monitoring
 
-**Trigger:** Ongoing; MeITY publishes consultation papers, draft rules, or final rules.
+**Trigger:** Ongoing; monitor subordinate notifications, amendments, DPBI circulars, and Central Government notifications under the gazetted DPDP Rules 2025.
 
-**Tracking Items:**
+**Current Status — Key Provisions (Gazetted November 2025):**
 
 ```
-DPDP RULES — PROVISION TRACKER
+DPDP RULES 2025 — RECONCILIATION STATUS
 ─────────────────────────────────────────────────────────────────────
-Provision                     | Draft Rules Ref | Status     | Action Needed
+Provision                     | Rule #  | Status          | Action
 ─────────────────────────────────────────────────────────────────────
-Breach notification timeline  | Rule [X]        | Draft 2025 | Monitor; plan for 72hr SLA
-Rights request response time  | Rule [X]        | Draft 2025 | Monitor; current SLA: 30 days
-Consent notice format         | Rule [X]        | Draft 2025 | Update notice template on final
-Consent Manager registration  | Rule [X]        | Draft 2025 | Prepare if CM applicable
-SDF designation criteria      | Rule [X]        | Pending    | Assess likelihood; prepare
-SDF DPO requirements          | Rule [X]        | Draft 2025 | Appoint DPO if SDF likely
-Data Auditor qualifications   | Rule [X]        | Pending    | Identify candidate auditors
-Permissible countries list    | Rule [X]        | Pending    | Restrict cross-border until notified
-Prescribed purposes (Sec 7g)  | Rule [X]        | Pending    | Review processing basis
-Children's verification method| Rule [X]        | Draft 2025 | Implement per draft; update on final
-DPBI procedure rules          | Separate rules  | Pending    | Prepare response procedures
+Breach notification timeline  | Rule 7  | ✅ Gazetted     | 72hr SLA implemented
+Rights request response time  | Rule 10 | ✅ Gazetted     | 30-day SLA implemented
+Consent notice format         | Sch II  | ✅ Gazetted     | Notice templates updated
+Consent Manager registration  | Rule 4  | ✅ Gazetted     | Framework operational
+SDF designation criteria      | Rule 12 | ✅ Gazetted     | Assess against criteria
+SDF DPO requirements          | Rule 13 | ✅ Gazetted     | KMP appointment required
+Data Auditor qualifications   | Rule 13 | ✅ Gazetted     | Annual audit mandated
+Permissible countries list    | Rule 14 | ⏳ Pending CG   | Restrict transfers until notified
+Prescribed purposes (Sec 7g)  | Rule 6  | ✅ Gazetted     | Processing basis confirmed
+Children's verification method| Rule 11 | ✅ Gazetted     | Methods implemented
+DPBI procedure rules          | Rule 16 | ✅ Gazetted     | Response procedures in place
 ─────────────────────────────────────────────────────────────────────
 ```
 
-**On Final DPDP Rules Notification:**
-1. Immediate DPO and Legal review.
-2. Side-by-side comparison: draft rules vs final rules — identify all changes.
-3. Classify each change by impact (A/B/C).
-4. Issue internal **DPDP Rules Alert** within 24 hours of notification.
-5. Update all compliance documents, notices, DPAs, and training within prescribed timeline.
-6. Brief Board within 7 days.
+**Ongoing Monitoring Required:**
+1. **Permissible countries list** (Rule 14) — Central Government notification pending; restrict all cross-border transfers until published.
+2. **SDF designations** — Monitor Official Gazette for entity/class designations under Rule 12.
+3. **Startup/small entity exemptions** (Rule 23) — No exemptions notified yet; monitor for notifications.
+4. **DPBI orders and precedents** — Track DPBI enforcement actions for compliance guidance (see Workflow 4).
+5. **Amendments to Rules** — Monitor MeITY website for any amendments or clarifications.
 
-**Output:** DPDP Rules Tracker; change comparison; compliance update plan.
+**Output:** DPDP Rules Reconciliation Tracker; pending notification watch list; compliance gap alerts.
 
 ---
 
 ### Workflow 4: DPBI Order Intelligence
 
-**Trigger:** DPBI issues an order against any Data Fiduciary (once DPBI is operational).
+**Trigger:** DPBI issues an order against any Data Fiduciary.
 
 **Steps:**
 1. Obtain full text of DPBI order.
@@ -394,7 +393,7 @@ For full penalty schedule, see `meity-dpdp-privacy-agent.md` — Penalty Referen
 - MeITY — meity.gov.in
 - Gazette of India — egazette.gov.in
 - DPDP Act, 2023 — All sections
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - CERT-In — cert-in.org.in
 - RBI, SEBI, IRDAI, TRAI official websites
 - Supreme Court of India — supremecourtofindia.nic.in
