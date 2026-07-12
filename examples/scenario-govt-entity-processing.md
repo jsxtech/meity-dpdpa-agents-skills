@@ -33,11 +33,11 @@ Step 3 → Audit Compliance Agent
 
 | Risk | Penalty Exposure | Mitigation |
 |---|---|---|
-| No S.5 notice despite legitimate use | ₹50 crore ⚠️ | Generate and publish notice for every service |
-| Inadequate security safeguards (S.8) | ₹250 crore ⚠️ | Encryption, access controls, audit logging |
-| Over-reliance on S.17 exemptions | ₹150 crore ⚠️ | Document exemption basis per dataset; narrow scope |
-| Aadhaar data breach (20M records) | ₹250 crore ⚠️ | Data minimisation; tokenise Aadhaar; segment access |
-| Processing beyond stated purpose | ₹200 crore ⚠️ | Strict purpose limitation; no secondary use without consent |
+| No S.5 notice despite legitimate use | Up to ₹50 crore (Other provisions) | Generate and publish notice for every service |
+| Inadequate security safeguards (S.8) | Up to ₹250 crore (S.8(5) security safeguards) | Encryption, access controls, audit logging |
+| Over-reliance on S.17 exemptions | Up to ₹50 crore (Other provisions) | Document exemption basis per dataset; narrow scope |
+| Aadhaar data breach (20M records) | Up to ₹250 crore (S.8(5) security safeguards) | Data minimisation; tokenise Aadhaar; segment access |
+| Processing beyond stated purpose | Up to ₹50 crore (Other provisions) | Strict purpose limitation; no secondary use without consent |
 
 ## Skills to Use
 
