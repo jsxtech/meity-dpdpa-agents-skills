@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Cross-Border Data Transfer"
 type: "agent"
 ---
@@ -267,7 +267,7 @@ For penalty exposure related to cross-border transfers, see `meity-dpdp-privacy-
 ## References
 
 - DPDP Act, 2023 — Section 16 (Transfer of Personal Data Outside India)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - RBI Data Localisation Guidelines (for payment data)
 - SEBI, IRDAI — Sector-specific data localisation requirements
 - ISO/IEC 27701 — Privacy Information Management
