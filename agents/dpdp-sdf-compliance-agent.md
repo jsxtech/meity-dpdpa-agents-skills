@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Significant Data Fiduciary Compliance"
 type: "agent"
 ---
@@ -341,6 +341,6 @@ The Central Government may designate any Data Fiduciary or class of Data Fiducia
 ## References
 
 - DPDP Act, 2023 — Section 10 (Significant Data Fiduciary)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - Data Protection Board of India (when constituted)
 - ISO/IEC 27701 — Privacy Information Management System
