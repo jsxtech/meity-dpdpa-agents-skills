@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Policy Document Generation"
 type: "agent"
 ---
@@ -897,5 +897,5 @@ For penalty exposure related to notice and policy failures, see `meity-dpdp-priv
 ## References
 
 - DPDP Act, 2023 — Sections 5, 6, 8, 11–13
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 29184 — Online privacy notices and consent
