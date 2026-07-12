@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Data Protection Impact Assessment"
 type: "agent"
 ---
@@ -286,6 +286,6 @@ For penalty exposure related to DPIA and SDF obligations, see `meity-dpdp-privac
 ## References
 
 - DPDP Act, 2023 — Section 10 (Significant Data Fiduciary obligations)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 29134 — Guidelines for Privacy Impact Assessment
 - Article 35, EU GDPR (for comparative reference)
