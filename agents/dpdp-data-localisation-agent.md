@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Data Localisation"
 type: "agent"
 ---
@@ -356,7 +356,7 @@ Employee data        | DPDP+Labour| India preferred       | [Location]      | [Y
 
 ## Penalty Reference
 
-For penalty exposure related to data localisation violations, see `meity-dpdp-privacy-agent.md` — Penalty Reference Table. Key: unauthorised transfers may attract penalties up to ₹250 crore. Sector-specific regulators (RBI, SEBI, IRDAI) may impose additional penalties.
+For penalty exposure related to data localisation violations, see `meity-dpdp-privacy-agent.md` — Penalty Reference Table. Key: transfer violations per se attract penalties up to ₹50 crore under the "Other breaches" head. If a transfer also results in a security safeguard failure (e.g., inadequate protections lead to a breach), the ₹250 crore head may apply. Sector-specific regulators (RBI, SEBI, IRDAI) may impose additional penalties independently.
 
 ---
 
