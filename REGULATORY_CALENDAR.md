@@ -10,10 +10,10 @@
 |---|---|---|---|---|
 | 11 Aug 2023 | DPDP Act enacted (No. 22 of 2023) | ✅ Completed | Full personal data protection framework in force | Baseline compliance programme required |
 | Jan 2025 | Draft DPDP Rules published for public consultation | ✅ Completed | Detailed implementation requirements visible | Review draft Rules; submit consultation response; gap analysis against draft |
-| Q2–Q3 2025 (delayed) | Final DPDP Rules — originally expected Q2–Q3 2025; not yet gazetted | ⏳ Pending | Binding timelines, formats, thresholds become law | Update all agents/skills; revise compliance programme; brief leadership |
-| TBD | Data Protection Board of India (DPBI) constitution | ⏳ Pending | Enforcement, complaints, and adjudication begin | Prepare complaint response procedures; appoint DPBI liaison |
+| 13 Nov 2025 | Final DPDP Rules, 2025 notified and gazetted (14 Nov 2025) | ✅ Completed | Binding timelines, formats, thresholds now statutory | Update all agents/skills; revise compliance programme; brief leadership |
+| Nov 2025 | Data Protection Board of India (DPBI) constituted | ✅ Completed | Enforcement, complaints, and adjudication active | Complaint response procedures in place; DPBI liaison appointed |
 | TBD | Significant Data Fiduciary (SDF) designation notifications | ⏳ Pending | Additional obligations for designated entities | SDF readiness assessment; DPO appointment; auditor engagement |
-| TBD | Consent Manager registration framework | ⏳ Pending | Registered Consent Managers become operational | Evaluate Consent Manager integration; update consent flows |
+| TBD | Consent Manager registration framework operational | ⏳ Pending | Registered Consent Managers become operational | Evaluate Consent Manager integration; update consent flows |
 | TBD | Permissible countries list for cross-border transfers | ⏳ Pending | Transfers restricted to notified countries only | Audit all cross-border data flows; update Transfer Register |
 | Ongoing | RBI data localisation compliance | 🟢 Active | Payment system data must be stored in India | Maintain data residency controls; periodic audit |
 | Ongoing | SEBI cyber security circular compliance | 🟢 Active | Cyber resilience requirements for market intermediaries | Align security controls with SEBI framework |
