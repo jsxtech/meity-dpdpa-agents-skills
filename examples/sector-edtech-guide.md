@@ -47,11 +47,12 @@
 
 | Violation | DPDP Penalty (up to) | Sector Impact |
 |---|---|---|
-| Processing child data without parental consent | ₹200 Cr | Platform ban risk; public backlash |
-| Profiling or targeting ads to children | ₹200 Cr | MeITY / DPBI enforcement action |
-| Missing age verification | ₹200 Cr | Deemed non-compliant by default |
-| Breach notification failure | ₹200 Cr | Heightened scrutiny (child data) |
-| Failure to honour erasure requests | ₹250 Cr | Parent complaints to DPBI |
+| Processing child data without parental consent (S.9) | ₹200 Cr | Platform ban risk; public backlash |
+| Profiling or targeting ads to children (S.9(3)) | ₹200 Cr | MeITY / DPBI enforcement action |
+| Missing age verification (S.9(1)) | ₹200 Cr | Deemed non-compliant by default |
+| Breach notification failure (S.8(6)) | ₹200 Cr | Heightened scrutiny (child data) |
+| Failure to honour erasure requests (S.8(7)) | ₹50 Cr | Parent complaints to DPBI |
+| Failure to implement security safeguards (S.8(5)) | ₹250 Cr | Student data breach; trust collapse |
 
 ## Common Pitfalls
 
@@ -67,12 +68,12 @@
 | Event / Obligation | Education Sector Timeline | DPDP Timeline | Notes |
 |---|---|---|---|
 | Academic year data cycle | Annual (typically Apr–Mar or Jun–May) | Consent valid until withdrawn (S.6) | Align data retention reviews with end-of-academic-year; purge graduated student data |
-| NCPCR complaint response | **30 days** (NCPCR / SCPCR complaint norms) | As prescribed by DPBI (pending Rules) | Child data complaints may be filed with both NCPCR and DPBI simultaneously |
-| Breach notification | Report to CERT-In within **6 hours** (CERT-In Directions, Apr 2022) | Without unreasonable delay to DPBI (S.8(6)) | Child data breaches attract the highest scrutiny; notify both bodies immediately |
-| Student record retention (state norms) | **3–5 years** post-completion (varies by state education board) | Erase when purpose served (S.8) | Retain per state board norms; erase thereafter unless legal obligation continues |
+| NCPCR complaint response | **30 days** (NCPCR / SCPCR complaint norms) | **30 days** (Rule 10, DPDP Rules 2025) | Child data complaints may be filed with both NCPCR and DPBI simultaneously |
+| Breach notification | Report to CERT-In within **6 hours** (CERT-In Directions, Apr 2022) | **72 hours** to DPBI (Rule 7, DPDP Rules 2025) | Child data breaches attract the highest scrutiny; notify both bodies immediately |
+| Student record retention (state norms) | **3–5 years** post-completion (varies by state education board) | Erase when purpose served (S.8(7)) | Retain per state board norms; erase thereafter unless legal obligation continues |
 | Parental consent re-verification | At each new academic year or major platform change | Consent refresh if purpose changes (S.6) | Use academic year rollover as a natural consent refresh checkpoint |
-| Grievance redressal | As per school/university grievance norms | As prescribed by DPBI (pending Rules) | Appoint a single Grievance Officer covering academic and data protection complaints |
-| Third-party vendor audit | Before each academic year (recommended) | Periodic (frequency pending Rules) | Audit edtech vendors, SDK integrations, and cloud providers before new session begins |
+| Grievance redressal | As per school/university grievance norms | **30 days** (Rule 10, DPDP Rules 2025) | Appoint a single Grievance Officer covering academic and data protection complaints |
+| Third-party vendor audit | Before each academic year (recommended) | Annual for SDFs (Rule 13(3)); periodic for others | Audit edtech vendors, SDK integrations, and cloud providers before new session begins |
 
 ---
-*Based on DPDP Act 2023 (enacted). Update when DPDP Rules are notified.*
+*Based on DPDP Act 2023 (enacted) and DPDP Rules 2025 (gazetted November 2025).*
