@@ -37,7 +37,7 @@ Frontmatter template:
 ---
 version: "1.2"
 last_updated: "YYYY-MM-DD"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "[Domain Name]"
 type: "agent"
 ---
@@ -69,7 +69,7 @@ Frontmatter template:
 ---
 version: "1.2"
 last_updated: "YYYY-MM-DD"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "[Domain Name]"
 type: "skill"
 ---
@@ -146,7 +146,7 @@ Before submitting a PR, verify:
 | Element | Convention | Example |
 |---|---|---|
 | Agent file | `dpdp-[domain]-agent.md` | `dpdp-breach-notification-agent.md` |
-| Skill file | `dpdp-[domain]-skill.md` | `dpdp-consent-management-skill.md` |
+| Skill file | `dpdp-[domain]-skill.md` | `dpdp-consent-manager-skill.md` |
 | Scenario file | `scenario-[description].md` | `scenario-ecommerce-data-breach.md` |
 | Sector guide | `sector-[sector]-guide.md` | `sector-fintech-guide.md` |
 | Frontmatter name | `dpdp-[domain]-agent` or `dpdp-[domain]-skill` | `dpdp-cross-border-transfer-agent` |
