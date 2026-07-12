@@ -11,6 +11,44 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v1.3.2] — 2026-07-12
+
+### Fixed
+- **DPDP Rules 2025 — status updated**: `dpdp_rules_version` changed from `draft-2025` to `notified-2025` across all 36 files; "pending" language replaced with "gazetted November 2025"
+- **Penalty amounts corrected** (15 errors across 10 files):
+  - `penalty-exposure-calculator.md`: Consent/purpose violation ₹250cr→₹50cr; processor obligation ₹250cr→₹50cr
+  - `scenario-large-employer-hr.md`: All 5 risk penalties corrected to ₹50cr (Other provisions); retention row clarified
+  - `scenario-startup-app-launch.md`: Payment data transfer ₹250cr→₹50cr (S.16)
+  - `scenario-cross-border-saas-vendor.md`: Transfer to non-permissible country ₹250cr→₹50cr
+  - `scenario-govt-entity-processing.md`: S.17 exemption ₹150cr→₹50cr; purpose limitation ₹200cr→₹50cr
+  - `scenario-gdpr-migration.md`: Legitimate interest, transfer, grievance, DPA penalties all corrected to ₹50cr
+  - `sector-fintech-guide.md`: Data outside India, consent, and erasure corrected to ₹50cr
+  - `sector-healthtech-guide.md`: Health data consent, research sharing, and erasure corrected to ₹50cr
+  - `sector-edtech-guide.md`: Erasure penalty ₹250cr→₹50cr
+  - `data-localisation-agent.md`: Transfer penalty caveated (₹50cr per se; ₹250cr only if security safeguard failure)
+- **GLOSSARY.md**: Data Processor section reference 2(7)→2(8); Digital Personal Data 2(8)→2(9); resolved duplicate
+- **Consent Management Agent**: Removed "research/archiving" from legitimate uses (not a S.7 ground); replaced with "voluntary provision" + S.17 clarifying note
+- **Anonymisation Agent**: References section — Personal Data definition corrected from "Section 4" to "Section 2(t)"
+- **mkdocs.yml**: Duplicate INTEGRATION.md nav entry removed; empty `site_url` replaced with placeholder
+- **README.md**: Agent Workflows count 129→117; `.github/` removed from directory structure; Quick Stats updated
+- **CONTRIBUTING.md**: Filename example corrected (`dpdp-consent-management-skill.md` → `dpdp-consent-manager-skill.md`)
+
+### Added
+- **Incident Response skill** — Capability 6A: CERT-In 6-Hour Notification (legal basis, incident types, steps, comparison table, `/ir-certin` quick command)
+- **Incident Response skill** — CERT-In 6-hour row added to SLA summary table
+- **Audit Checklist skill** — `/audit-quality` quick command added for Domain 5 (Data Quality & Accuracy)
+- **Penalty calculator** — Cross-border transfer violation row added (₹50cr); explanatory note on ₹250cr head
+
+### Changed
+- **RULES_TRACKER.md**: Rewritten from forward-looking "pending" tracker to retrospective reconciliation log (20/24 provisions reconciled, 2 partially, 2 pending subordinate notifications)
+- **REGULATORY_CALENDAR.md**: DPDP Rules (13 Nov 2025) and DPBI constitution marked ✅ Completed
+- **Master Agent & Skill**: Guardrails updated from "flag pending rules" to "verify against gazetted text"
+- **Incident Response SLA table**: DPBI row marked with ⚠️; 72-hour timeline now cited as DPDP Rules 2025 (statutory)
+- **manifest.yaml**: Incident Response capabilities 8→9, quick_commands 8→9; Audit Checklist quick_commands 13→14
+- **README Quick Stats**: Skill Capabilities 139→140, Quick Commands 142→144
+
+---
+
 ## [v1.3.1] — 2026-04-30
 
 ### Added
@@ -123,6 +161,6 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
-## Pending
+## Resolved
 
-> **DPDP Rules final notification** — all files will require update when Rules are gazetted. Areas affected include: specific timelines, prescribed formats, DPBI procedural rules, SDF thresholds, Consent Manager registration requirements, cross-border transfer country list, and children's data age verification standards.
+> **DPDP Rules 2025 — Notified 13 November 2025.** All files have been reconciled against the gazetted text in v1.3.2. Remaining "pending" items (SDF designations, permissible country list, Consent Manager registrations) are tracked in REGULATORY_CALENDAR.md.
