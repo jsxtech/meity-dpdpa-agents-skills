@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Vendor & Processor Management"
 type: "agent"
 ---
@@ -271,6 +271,6 @@ For penalty exposure related to processor and vendor management, see `meity-dpdp
 ## References
 
 - DPDP Act, 2023 — Section 8 (Obligations of Data Fiduciary), Section 2(8) (Data Processor definition)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27001 — Supplier relationships (Annex A.15)
 - ISO/IEC 27701 — Privacy Information Management
