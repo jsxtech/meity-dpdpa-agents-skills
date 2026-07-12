@@ -28,14 +28,17 @@ Map each processing activity to the potential violation and its statutory maximu
 
 | Violation Category | Statutory Maximum | Applicable Activities |
 |---|---|---|
-| Consent / purpose limitation failure (s. 4, 6) | ₹250 crore | |
 | Security safeguards failure (s. 8(5)) | ₹250 crore | |
-| Data Processor obligation failure (s. 8) | ₹250 crore | |
 | Breach notification failure (s. 8(6)) | ₹200 crore | |
 | Children's data violation (s. 9) | ₹200 crore | |
 | SDF obligation failure (s. 10) | ₹150 crore | |
+| Consent / purpose limitation failure (s. 4, 6) | ₹50 crore | |
+| Cross-border transfer violation (s. 16) | ₹50 crore | |
+| Data Processor obligation failure (s. 8) | ₹50 crore | |
 | General non-compliance | ₹50 crore | |
 | Data Principal duty violation (s. 15) | ₹10,000 | |
+
+> **Note on ₹250 crore head:** The maximum ₹250 crore penalty applies specifically to failure to implement reasonable security safeguards to prevent a personal data breach (Section 8(5) read with Schedule). Other non-compliance, including consent/purpose violations and processor failures, falls under "Other breaches" (₹50 crore maximum) unless the violation simultaneously constitutes a security safeguard failure.
 
 ---
 
