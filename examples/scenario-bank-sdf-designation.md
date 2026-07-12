@@ -45,8 +45,8 @@ Step 8 → Policy Document Generator Agent
 
 | Risk | Penalty Exposure | Mitigation |
 |---|---|---|
-| No DPO appointed | ₹150 crore ⚠️ (maximum per Schedule) | Appoint as KMP promptly ⚠️ (30 days is best-practice target; timeline per DPDP Rules when notified) |
-| No independent auditor | ₹150 crore ⚠️ (maximum per Schedule) | Empanel auditor promptly ⚠️ (60 days is best-practice target; timeline per DPDP Rules when notified) |
+| No DPO appointed | ₹150 crore ⚠️ (maximum per Schedule) | Appoint as KMP promptly (30 days per DPDP Rules 2025, Rule 13) |
+| No independent auditor | ₹150 crore ⚠️ (maximum per Schedule) | Empanel auditor promptly (60 days per DPDP Rules 2025, Rule 13(3)) |
 | No DPIA programme | ₹150 crore ⚠️ (maximum per Schedule) | Establish programme in Phase 1 |
 | Algorithm accountability gap | ₹150 crore ⚠️ (maximum per Schedule) | Algorithm Register + bias audits |
 
