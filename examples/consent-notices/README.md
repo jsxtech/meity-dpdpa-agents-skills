@@ -65,4 +65,4 @@ Ready-to-use consent notice templates compliant with the **Digital Personal Data
 
 ## Status Note
 
-DPDP Rules are pending final notification as of 2026. Notices will be updated when the final Rules prescribe specific formats or mandatory fields. Legal counsel should be consulted for binding compliance decisions.
+The DPDP Rules 2025 were gazetted in November 2025. Notices have been updated to reflect prescribed formats and mandatory fields. Legal counsel should be consulted for binding compliance decisions.
