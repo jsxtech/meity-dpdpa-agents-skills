@@ -69,7 +69,7 @@ A: Only if the consent notice disclosed cross-border processing
 
 | Risk | Penalty Exposure | Mitigation |
 |---|---|---|
-| Transfer to non-permissible country | ₹250 crore | DPA + contractual safeguards + encryption + legal opinion |
+| Transfer to non-permissible country | Up to ₹50 crore (S.16 — Other provisions) | DPA + contractual safeguards + encryption + legal opinion |
 | IRDAI data residency violation | IRDAI regulatory action | Mirror data in India; verify with IRDAI |
 | Health data breach at vendor | ₹250 crore + ₹200 crore | DPA with 48hr notification; audit rights |
 | No DPIA for cross-border health data | ₹150 crore (if SDF) | Complete DPIA before onboarding |
