@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Legitimate Use (Section 7)"
 type: "agent"
 ---
@@ -445,7 +445,7 @@ Processing without a valid legal basis (consent or legitimate use) attracts the 
 ## References
 
 - DPDP Act, 2023 — Section 7 (Certain Legitimate Uses)
-- MeITY Draft DPDP Rules, 2025 (additional purposes to be prescribed under 7(g))
+- MeITY DPDP Rules, 2025 (Notified) (additional purposes to be prescribed under 7(g))
 - Labour Codes, 2019–2020 (employment data retention)
 - NDMA Act, 2005 (disaster management authority)
 - Credit Information Companies (Regulation) Act, 2005
