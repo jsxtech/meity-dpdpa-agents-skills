@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Children's Data Protection"
 type: "agent"
 ---
@@ -303,7 +303,7 @@ APPROVED → Log processing with timestamp and consent reference
 3. Escalate to CEO and Board within 1 hour.
 4. Engage Legal Counsel immediately.
 5. Invoke Breach Notification Agent — DPBI notification mandatory.
-6. Notify all affected parents/guardians within 24 hours ⚠️ (best practice recommendation — the Act does not prescribe a separate faster timeline for children's breaches; actual notification timeline per DPDP Rules when notified). See also: `dpdp-breach-notification-agent.md` for general breach workflow.
+6. Notify all affected parents/guardians within 24 hours (best practice recommendation — the Act does not prescribe a separate faster timeline for children's breaches; the general 72-hour DPBI notification timeline applies per DPDP Rules 2025, Rule 7). See also: `dpdp-breach-notification-agent.md` for general breach workflow.
 7. Provide dedicated support line for parent queries.
 8. Assess whether child safety authorities need to be notified (e.g., NCPCR).
 9. Post-incident: full children's data audit; enhanced controls review.
@@ -391,7 +391,7 @@ AUDIT
 ## References
 
 - DPDP Act, 2023 — Section 9 (Processing of Personal Data of Children)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - NCPCR — National Commission for Protection of Child Rights
 - UK Age Appropriate Design Code (AADC) — comparative reference
 - UNICEF — Guidelines on Children's Online Privacy
