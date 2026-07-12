@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Compliance Roadmap"
 type: "agent"
 ---
@@ -524,7 +524,7 @@ For full penalty schedule, see `meity-dpdp-privacy-agent.md` — Penalty Referen
 ## References
 
 - DPDP Act, 2023 — All sections
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27701 — Privacy Information Management System
 - NIST Privacy Framework — Govern, Identify, Control, Communicate, Protect Functions
 - IAPP Privacy Programme Management
