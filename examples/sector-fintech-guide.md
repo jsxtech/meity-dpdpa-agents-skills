@@ -47,11 +47,12 @@
 
 | Violation | DPDP Penalty (up to) | RBI Action |
 |---|---|---|
-| Data stored outside India | ₹250 Cr | Licence review / restriction |
-| Missing / invalid consent | ₹250 Cr | — |
-| Breach notification failure | ₹200 Cr | Monetary penalty + directive |
-| Children's data mishandling | ₹200 Cr | — |
-| Non-compliance with data erasure | ₹250 Cr | — |
+| Failure to implement security safeguards (S.8(5)) | ₹250 Cr | Monetary penalty + directive |
+| Data stored outside India (S.16) | ₹50 Cr | Licence review / restriction |
+| Missing / invalid consent (S.6) | ₹50 Cr | — |
+| Breach notification failure (S.8(6)) | ₹200 Cr | Monetary penalty + directive |
+| Children's data mishandling (S.9) | ₹200 Cr | — |
+| Non-compliance with data erasure (S.8(7)) | ₹50 Cr | — |
 
 ## Common Pitfalls
 
@@ -66,13 +67,13 @@
 
 | Event / Obligation | RBI / CERT-In Timeline | DPDP Timeline | Notes |
 |---|---|---|---|
-| Cyber incident reporting | **6 hours** to CERT-In (CERT-In Directions, Apr 2022) | As prescribed by DPBI (timeline pending Rules) | RBI-regulated entities must also report to RBI CSITE within 6 hours |
-| Breach notification to Data Principals | — | Without unreasonable delay (S.8(6)) | DPDP Rules expected to define exact window |
-| Data localisation compliance | Immediate (RBI circular effective since Oct 2018) | N/A (DPDP does not mandate localisation) | Payment system data must be stored only in India per RBI |
+| Cyber incident reporting | **6 hours** to CERT-In (CERT-In Directions, Apr 2022) | **72 hours** to DPBI (Rule 7, DPDP Rules 2025) | RBI-regulated entities must also report to RBI CSITE within 6 hours |
+| Breach notification to Data Principals | — | Without unreasonable delay where harm is likely (Rule 7) | Notify with plain language explanation and recommended protective actions |
+| Data localisation compliance | Immediate (RBI circular effective since Oct 2018) | N/A (DPDP does not mandate localisation; S.16 governs transfers) | Payment system data must be stored only in India per RBI |
 | KYC periodic re-verification | Every 2 / 8 / 10 years (risk-based) per RBI KYC Directions | Consent refresh if purpose changes (S.6) | Re-KYC does not require fresh DPDP consent if purpose unchanged |
-| IT governance audit | Annual (RBI Master Direction on IT Framework) | Periodic (frequency pending Rules) | Align DPDP audit cycle with RBI annual IT audit |
-| Grievance redressal response | 30 days (RBI Integrated Ombudsman) | As prescribed by DPBI (pending Rules) | Appoint a single officer covering both RBI and DPDP grievances |
-| Data retention / purge | As per NPCI / RBI product-specific norms | Erase when purpose served or consent withdrawn (S.8) | Whichever is shorter applies; document retention rationale |
+| IT governance audit | Annual (RBI Master Direction on IT Framework) | Annual for SDFs (Rule 13(3)) | Align DPDP audit cycle with RBI annual IT audit |
+| Grievance redressal response | 30 days (RBI Integrated Ombudsman) | **30 days** (Rule 10) | Appoint a single officer covering both RBI and DPDP grievances |
+| Data retention / purge | As per NPCI / RBI product-specific norms | Erase when purpose served or consent withdrawn (S.8(7)) | Whichever is shorter applies; document retention rationale |
 
 ---
-*Based on DPDP Act 2023 (enacted) and current RBI circulars. Update when DPDP Rules are notified.*
+*Based on DPDP Act 2023 (enacted) and DPDP Rules 2025 (gazetted November 2025). Cross-referenced with current RBI circulars.*
