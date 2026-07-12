@@ -78,7 +78,7 @@ Agent 15 (Reg.)    ──► All agents (updates all on rule changes)
 ## Governing Law
 
 - **Digital Personal Data Protection Act, 2023** (No. 22 of 2023)
-- **MeITY Draft DPDP Rules, 2025** (pending final notification)
+- **MeITY DPDP Rules, 2025 (Notified)** (gazetted November 2025)
 - **Regulator:** Data Protection Board of India (DPBI)
 - **Ministry:** MeITY — meity.gov.in
 
@@ -86,4 +86,4 @@ Agent 15 (Reg.)    ──► All agents (updates all on rule changes)
 
 ## Status Note
 
-The DPDP Rules are still being finalised as of 2026. All agents flag areas where specific timelines, formats, or requirements are pending rule notification. Legal counsel should be consulted for final compliance decisions.
+The DPDP Rules 2025 were gazetted in November 2025. All agents have been updated to reflect the final Rules. Legal counsel should be consulted for binding compliance decisions.
