@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "DPBI Complaint Response"
 type: "agent"
 ---
@@ -341,6 +341,6 @@ When DPBI assesses penalty quantum, the following factors may reduce the penalty
 ## References
 
 - DPDP Act, 2023 — Chapter V (Sections 18–26, DPBI Establishment), Chapter VI (Sections 27–28, Powers & Procedure), Chapter VII (Sections 29–32, Appeals & ADR), Chapter VIII (Section 33, Penalties)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - TDSAT — Telecom Disputes Settlement and Appellate Tribunal
 - Schedule to DPDP Act (Penalty provisions)
