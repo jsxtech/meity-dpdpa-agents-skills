@@ -42,11 +42,13 @@ Step 4 → Consent Management Agent
 
 | Risk | Penalty Exposure | Mitigation |
 |---|---|---|
-| CCTV without notice or purpose limitation | ₹150 crore ⚠️ | Post CCTV notices; limit to safety/security purpose |
-| Treating all HR processing as legitimate use | ₹200 crore ⚠️ | Map each activity; obtain consent where S.7(f) does not apply |
-| Vendor DPAs missing DPDP terms | ₹150 crore ⚠️ | Audit and update all processor agreements |
-| Employee data retained after exit | ₹250 crore ⚠️ | Enforce retention schedule; delete within defined period |
-| Coerced consent (employment conditioned) | ₹200 crore ⚠️ | Ensure voluntary opt-in; no adverse action for refusal |
+| CCTV without notice or purpose limitation | Up to ₹50 crore (S.5/S.4 — Other provisions) | Post CCTV notices; limit to safety/security purpose |
+| Treating all HR processing as legitimate use | Up to ₹50 crore (invalid legal basis — Other provisions) | Map each activity; obtain consent where S.7(f) does not apply |
+| Vendor DPAs missing DPDP terms | Up to ₹50 crore (processor obligations — Other provisions) | Audit and update all processor agreements |
+| Employee data retained after exit | Up to ₹50 crore (S.8(7) retention — Other provisions); up to ₹250 crore if retention failure causes a personal data breach (S.8(5)) | Enforce retention schedule; delete within defined period |
+| Coerced consent (employment conditioned) | Up to ₹50 crore (S.6 consent validity — Other provisions) | Ensure voluntary opt-in; no adverse action for refusal |
+
+> **Note on penalty heads:** Most employment data violations fall under "Other provisions" in the DPDP Act Schedule (maximum ₹50 crore per instance). The ₹250 crore head applies only to failure to implement reasonable security safeguards that results in a personal data breach (S.8(5)). The ₹200 crore head applies only to breach notification failure (S.8(6)) or children's data violations (S.9). The ₹150 crore head applies only to obligations specific to designated Significant Data Fiduciaries (S.10).
 
 ## Skills to Use
 
