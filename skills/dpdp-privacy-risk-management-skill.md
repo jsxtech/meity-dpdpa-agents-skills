@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Privacy Risk Management"
 type: "skill"
 ---
@@ -447,7 +447,7 @@ PENALTY EXPOSURE ESTIMATE
 ## References
 
 - DPDP Act, 2023 — Sections 8–10
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO 31000 — Risk Management Guidelines
 - ISO/IEC 27005 — Information Security Risk Management
 - ISO/IEC 29134 — Privacy Impact Assessment Guidelines
