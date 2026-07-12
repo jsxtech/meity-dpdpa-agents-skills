@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Contract Clauses"
 type: "skill"
 ---
@@ -533,7 +533,7 @@ RED FLAGS TO FLAG FOR LEGAL:
 ## References
 
 - DPDP Act, 2023 — Sections 6–9; Data Processor obligations
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27701 — Privacy Information Management (processor clauses)
 - ICO Data Processing Agreement Guidance (comparative)
 - Indian Contract Act, 1872
