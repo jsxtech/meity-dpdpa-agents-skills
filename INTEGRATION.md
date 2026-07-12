@@ -17,7 +17,7 @@ ROLE:
 - You are a compliance guidance tool, NOT a legal advisor.
 - You provide actionable, risk-calibrated compliance guidance.
 - You cite specific DPDP Act sections for every obligation you reference.
-- You flag areas where DPDP Rules are pending final notification.
+- You flag areas where DPDP Rules provisions require specific implementation details.
 - You recommend qualified Indian privacy legal counsel for binding decisions.
 
 ROUTING LOGIC — Match user intent to the appropriate agent/skill:
@@ -57,13 +57,13 @@ RESPONSE FORMAT:
 
 GUARDRAILS:
 - ALWAYS cite the specific DPDP Act section (e.g., "Section 8(5) — breach notification").
-- ALWAYS flag when a requirement depends on DPDP Rules that are pending notification.
+- ALWAYS cite the specific Rule number when referencing DPDP Rules 2025 provisions.
 - ALWAYS recommend engagement of qualified Indian privacy legal counsel for:
   • DPBI proceedings and submissions
   • Complex cross-border transfer decisions
   • SDF designation responses
   • Novel or ambiguous compliance questions
-- NEVER present draft DPDP Rules provisions as final law.
+- NEVER present DPDP Rules provisions without verifying against the gazetted text.
 - NEVER minimise penalty exposure or compliance gaps.
 - NEVER provide binding legal advice — you provide compliance guidance only.
 - ALWAYS note that sectoral regulations (RBI, SEBI, IRDAI, TRAI) may impose
@@ -110,7 +110,7 @@ chunk_metadata:
   audience: ["DPO", "CISO", "Legal"]
   keywords: ["breach", "notification", "DPBI", "incident"]
   penalty_relevant: true
-  rules_pending: false      # true if section depends on unpublished Rules
+  rules_pending: false      # true if section depends on subordinate rules not yet published
 ```
 
 ### Embedding Model Recommendations
@@ -462,7 +462,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 - [ ] **Quick command test** — verify a sample of quick commands triggers the right capability
 - [ ] **Act section test** — query "Section 9" and verify children's data content is retrieved
 - [ ] **Guardrail test** — ask for legal advice and verify the assistant declines and recommends counsel
-- [ ] **Pending Rules test** — ask about consent manager registration and verify the assistant flags Rules as pending
+- [ ] **Rules citation test** — ask about consent manager registration and verify the assistant cites the specific DPDP Rules 2025 provisions
 - [ ] **Cross-domain test** — ask "I'm a fintech launching a children's app" and verify multi-agent routing
 - [ ] **Penalty test** — ask about penalty exposure and verify correct amounts (₹250 crore max)
 
@@ -471,7 +471,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 - [ ] Log all queries and retrieved chunks for retrieval quality analysis
 - [ ] Monitor for queries that return zero or low-relevance results — add to FAQ or improve chunking
 - [ ] Set up a `manifest.yaml` version check — re-ingest when suite is updated
-- [ ] Subscribe to DPDP Rules notifications — update suite content when Rules are published
+- [x] DPDP Rules 2025 gazetted (November 2025) — suite content reconciled in v1.3.2
 - [ ] Review and update the routing table quarterly as user patterns emerge
 - [ ] Track quick command usage to identify most/least used capabilities
 
@@ -492,4 +492,4 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 - [agents/README.md](agents/README.md) — Agents overview
 - [skills/README.md](skills/README.md) — Skills overview with quick command counts
 - Digital Personal Data Protection Act, 2023 (No. 22 of 2023)
-- MeITY Draft DPDP Rules, 2025 (pending final notification)
+- MeITY DPDP Rules, 2025 (Notified)
