@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Breach Notification"
 type: "agent"
 ---
@@ -37,7 +37,7 @@ A **personal data breach** means any unauthorised processing of personal data or
 | Notify Data Principals | **Mandatory** where breach is likely to result in harm — plain language, prescribed format |
 | Internal escalation | Immediate escalation to DPO, Legal, and senior management |
 
-> **Note:** DPDP Rules will prescribe the exact timeline and format. Until notified, the agent targets **72 hours** for DPBI notification (aligned with global best practice) and **immediate** notification to affected Data Principals where harm is likely.
+> **Note:** Per DPDP Rules 2025 (Rule 7), DPBI notification must occur within **72 hours** of becoming aware of a personal data breach. Affected Data Principals must be notified **without unreasonable delay** where harm is likely.
 
 ---
 
@@ -319,6 +319,6 @@ We sincerely apologise for this incident and are committed to your data security
 ## References
 
 - DPDP Act, 2023 — Section 8(5) (Security Safeguards), Section 8(6) (Breach Notification)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 27001 — Information Security Management
 - CERT-In Cyber Incident Reporting Guidelines
