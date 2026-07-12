@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Consent Manager"
 type: "skill"
 ---
@@ -43,7 +43,7 @@ CONSENT MANAGER (registered entity)
       └──► Data Fiduciary C (consent signal)
 ```
 
-> **Regulatory Status (2025):** The Consent Manager registration framework has not yet been finalised under DPDP Rules. This skill anticipates the framework based on the Account Aggregator model (RBI) and the draft DPDP Rules.
+> **Regulatory Status (2025):** The Consent Manager registration framework has been specified under the DPDP Rules, 2025 (gazetted November 2025). This skill reflects the notified framework, which draws on the Account Aggregator model (RBI).
 
 ---
 
@@ -346,7 +346,7 @@ CONSENT MANAGER OBLIGATIONS
 ## References
 
 - DPDP Act, 2023 — Section 2(7) (Consent Manager), Section 6 (Consent)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - RBI Account Aggregator Framework (analogous architecture)
 - DEPA — Data Empowerment and Protection Architecture (India Stack)
 - ISO/IEC 29184 — Online Privacy Notices and Consent
