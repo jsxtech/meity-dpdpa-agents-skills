@@ -1,6 +1,6 @@
 site_name: DPDP Act Compliance Suite
 site_description: Comprehensive agents and skills for Digital Personal Data Protection Act, 2023 compliance
-site_url: "" # Set to deployment URL before publishing
+site_url: "https://example.com/dpdp-compliance/" # TODO: Replace with actual deployment URL before publishing
 copyright: "© 2025–2026 DPDP Compliance Suite Contributors — CC BY-SA 4.0"
 
 theme:
@@ -95,7 +95,6 @@ nav:
       - Glossary: GLOSSARY.md
       - Rules Tracker: RULES_TRACKER.md
       - Architecture: ARCHITECTURE.md
-      - Integration Guide: INTEGRATION.md
       - Contributing: CONTRIBUTING.md
       - Code of Conduct: CODE_OF_CONDUCT.md
       - License: LICENSE
