@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "International Comparison"
 type: "skill"
 ---
@@ -62,7 +62,7 @@ Enable organisations operating across multiple jurisdictions to understand how I
 | **Automated Decisions** | No explicit provision (SDF obligations implied) | Article 22 — explicit right to object | GDPR more explicit |
 | **DPO Requirement** | Only SDFs (mandatory) | Broader categories (public bodies, high-risk processing) | GDPR broader DPO obligation |
 | **DPIA Requirement** | Periodic — SDFs | High-risk processing — all controllers | GDPR broader DPIA requirement |
-| **Breach Notification** | Mandatory — all breaches | 72 hours to supervisory authority; individuals if high risk | DPDP pending Rules; GDPR 72-hour SLA |
+| **Breach Notification** | Mandatory — all breaches; 72 hours to DPBI (Rule 7) | 72 hours to supervisory authority; individuals if high risk | Both 72-hour SLA; DPDP notifies all breaches, GDPR only "likely to result in risk" |
 | **Cross-Border Transfer** | Permissible country list (not yet published) | Adequacy decisions, SCCs, BCRs | GDPR has established mechanisms; DPDP developing |
 | **Processor Obligations** | Flow-down via DPA | Direct obligations under GDPR | GDPR more direct |
 | **Maximum Penalty** | ₹250 crore (~€28M) per instance | €20M or 4% global turnover (whichever higher) | GDPR potentially much higher for large companies |
