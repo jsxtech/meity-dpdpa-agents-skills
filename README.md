@@ -1,7 +1,7 @@
 # DPDP Act 2023 — Compliance Suite
 
-!!! warning "Pending DPDP Rules"
-    This suite is based on the **enacted DPDP Act 2023** and the **Draft DPDP Rules 2025**. Timelines, formats, and thresholds marked with ⚠️ are best-practice assumptions that will be updated when the final Rules are gazetted by the Central Government. Always consult legal counsel for binding compliance decisions.
+!!! warning "DPDP Rules 2025"
+    This suite is based on the **enacted DPDP Act 2023** and the **Notified DPDP Rules 2025** (gazetted November 2025). Content has been updated to reflect the final Rules. Timelines, formats, and thresholds derived from the Rules are now statutory. Always consult legal counsel for binding compliance decisions.
 
 Meity DPDPA Agents Skills Workflows Notices by Jaspal 9891156880
 
@@ -13,9 +13,9 @@ A comprehensive collection of AI agents and skills designed to help organisation
 |---|---|
 | Agents | 17 |
 | Skills | 17 |
-| Agent Workflows | 129 |
-| Skill Capabilities | 139 |
-| Skill Quick Commands | 142 |
+| Agent Workflows | 117 |
+| Skill Capabilities | 140 |
+| Skill Quick Commands | 144 |
 
 ## Getting Started
 
@@ -30,7 +30,6 @@ A comprehensive collection of AI agents and skills designed to help organisation
 ├── agents/          # 17 agent definitions (assessment, monitoring, response)
 ├── skills/          # 17 skill definitions (operational capabilities)
 ├── examples/        # 7 scenario walkthroughs + 3 sector guides + 6 consent notices + penalty calculator
-├── .github/         # GitHub Actions workflows (CI + freshness check)
 ├── manifest.yaml    # Suite manifest with all agents, skills, and metadata
 ├── DECISION_TREE.md # Flowchart to select the right agent/skill
 ├── INTEGRATION.md   # AI system integration guide (system prompt, RAG, routing)
@@ -53,7 +52,7 @@ A comprehensive collection of AI agents and skills designed to help organisation
 - [INTEGRATION.md](INTEGRATION.md) — AI system integration guide (system prompt, RAG, routing)
 - [ARCHITECTURE.md](ARCHITECTURE.md) — Dependency graphs and suite structure
 - [REGULATORY_CALENDAR.md](REGULATORY_CALENDAR.md) — Compliance dates and deadlines
-- [RULES_TRACKER.md](RULES_TRACKER.md) — Pending DPDP Rules provision tracker
+- [RULES_TRACKER.md](RULES_TRACKER.md) — DPDP Rules provision tracker and reconciliation log
 - [SELF_ASSESSMENT.md](SELF_ASSESSMENT.md) — 60-question compliance self-assessment
 - [GLOSSARY.md](GLOSSARY.md) — DPDP terminology reference
 - [CHANGELOG.md](CHANGELOG.md) — Version history
@@ -102,5 +101,5 @@ This suite is aligned with:
 
 ## Status
 
-!!! note "Pending DPDP Rules"
-    The DPDP Rules under the Act have not yet been notified by the Central Government. Agents and skills in this suite are based on the enacted statute and publicly available drafts. They will be updated once the final Rules are published.
+!!! success "DPDP Rules 2025 — Notified"
+    The DPDP Rules 2025 were notified by the Central Government on 13 November 2025 and published in the Official Gazette on 14 November 2025. This suite has been updated to reflect the final Rules. Items previously marked with ⚠️ as "pending Rules" have been reconciled against the gazetted text.
