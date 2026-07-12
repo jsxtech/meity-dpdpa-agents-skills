@@ -82,7 +82,7 @@ These examples reference agents in [`/agents/`](../agents/README.md) and skills 
 ## Governing Law
 
 - **Digital Personal Data Protection Act, 2023** (No. 22 of 2023)
-- **MeITY Draft DPDP Rules, 2025** (pending final notification)
+- **MeITY DPDP Rules, 2025 (Notified)** (gazetted November 2025)
 - **Regulator:** Data Protection Board of India (DPBI)
 - **Ministry:** MeITY — meity.gov.in
 
@@ -90,4 +90,4 @@ These examples reference agents in [`/agents/`](../agents/README.md) and skills 
 
 ## Status Note
 
-DPDP Rules are pending final notification as of 2026. Examples flag areas where specific requirements await rule notification. Legal counsel should be consulted for binding compliance decisions.
+The DPDP Rules 2025 were gazetted in November 2025. Examples have been updated to reflect the final Rules. Legal counsel should be consulted for binding compliance decisions.
