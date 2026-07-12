@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Consent Lifecycle"
 type: "agent"
 ---
@@ -166,7 +166,9 @@ The agent recognises the following **legitimate use** categories where consent m
 | State functions | Government schemes, judicial proceedings |
 | Medical emergency | Protecting life or health of Data Principal or another |
 | Breakdown of public order | Safety and security by State |
-| Processing for research / archiving | Statistical or research purposes with anonymisation safeguards |
+| Voluntary provision | Data Principal voluntarily provides data for a specified purpose |
+
+> **Note:** Research and archiving are NOT standalone legitimate uses under Section 7 of the DPDP Act. Research processing may be exempt under Section 17 (exemptions by Central Government notification) but only where data is anonymised. See `dpdp-legitimate-use-agent.md` for the full Section 7 analysis.
 
 > Even in legitimate use cases, the agent enforces purpose limitation and data minimisation.
 
@@ -235,5 +237,5 @@ For penalty exposure related to consent violations, see `meity-dpdp-privacy-agen
 ## References
 
 - DPDP Act, 2023 — Section 5 (Notice), Section 6 (Consent), Section 9 (Children's Data)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - ISO/IEC 29184 — Online privacy notices and consent
