@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Data Principal Rights"
 type: "agent"
 ---
@@ -224,7 +224,7 @@ This agent handles the intake, verification, processing, and fulfilment of **Dat
 | Grievance resolution | As prescribed under DPDP Rules |
 | DPBI inquiry response | As directed by DPBI |
 
-> DPDP Rules will specify exact timelines. Until notified, the agent uses **30 days** as the default response period for rights requests, consistent with global standards.
+> Per DPDP Rules 2025 (Rule 10), the response period for rights requests is **30 days** from receipt of a valid, verified request.
 
 ---
 
@@ -292,5 +292,5 @@ For penalty exposure related to rights violations, see `meity-dpdp-privacy-agent
 ## References
 
 - DPDP Act, 2023 — Sections 11–14 (Data Principal Rights), Section 13 (Grievance), Section 27–28 (DPBI)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - Data Protection Board of India (when constituted)
