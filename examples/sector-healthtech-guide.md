@@ -47,11 +47,12 @@
 
 | Violation | DPDP Penalty (up to) | Sector Impact |
 |---|---|---|
-| Processing health data without consent | ₹250 Cr | Trust erosion |
-| Children's health data mishandling | ₹200 Cr | Regulatory scrutiny |
-| Breach notification failure | ₹200 Cr | Complaints to DPBI; reputational risk |
-| Non-anonymised research data sharing | ₹250 Cr | Ethics board action |
-| Failure to honour erasure requests | ₹250 Cr | Complaints to DPBI |
+| Failure to implement security safeguards (S.8(5)) | ₹250 Cr | Patient data breach; trust collapse |
+| Processing health data without consent (S.6) | ₹50 Cr | Trust erosion |
+| Children's health data mishandling (S.9) | ₹200 Cr | Regulatory scrutiny |
+| Breach notification failure (S.8(6)) | ₹200 Cr | Complaints to DPBI; reputational risk |
+| Non-anonymised research data sharing | ₹50 Cr | Ethics board action |
+| Failure to honour erasure requests (S.8(7)) | ₹50 Cr | Complaints to DPBI |
 
 ## Common Pitfalls
 
@@ -68,11 +69,11 @@
 |---|---|---|---|
 | ABDM consent artefact validity | Defined per consent request (typically 1 hour to 30 days) | Consent valid until withdrawn (S.6) | ABDM consent expiry does not auto-revoke DPDP consent; manage separately |
 | Clinical record retention (MCI) | **3 years** minimum (Indian Medical Council regulations) | Erase when purpose served or consent withdrawn (S.8) | Retain for 3 years per MCI; erase thereafter unless another lawful basis exists |
-| Breach notification | Report to CERT-In within **6 hours** (CERT-In Directions, Apr 2022) | Without unreasonable delay to DPBI (S.8(6)) | Health data breaches attract heightened scrutiny; notify both bodies promptly |
-| Telemedicine record retention | Retain teleconsultation records for **3 years** (Telemedicine Guidelines 2020) | Erase when purpose served (S.8) | Align with 3-year telemedicine norm; purge after unless ongoing treatment |
+| Breach notification | Report to CERT-In within **6 hours** (CERT-In Directions, Apr 2022) | **72 hours** to DPBI (Rule 7, DPDP Rules 2025) | Health data breaches attract heightened scrutiny; notify both bodies promptly |
+| Telemedicine record retention | Retain teleconsultation records for **3 years** (Telemedicine Guidelines 2020) | Erase when purpose served (S.8(7)) | Align with 3-year telemedicine norm; purge after unless ongoing treatment |
 | ICMR ethics approval for research | Before data collection (ICMR National Ethical Guidelines) | Consent or anonymisation required (S.17(2), S.6) | Ethics approval does not replace DPDP consent for identifiable data |
-| Patient grievance redressal | As per Clinical Establishment Act / state norms | As prescribed by DPBI (pending Rules) | Appoint a single Grievance Officer covering clinical and data complaints |
-| ABHA-linked data access request | Real-time via ABDM PHR app | Right to access under S.11 (timeline pending Rules) | Ensure non-ABDM records are also accessible on request |
+| Patient grievance redressal | As per Clinical Establishment Act / state norms | **30 days** (Rule 10, DPDP Rules 2025) | Appoint a single Grievance Officer covering clinical and data complaints |
+| ABHA-linked data access request | Real-time via ABDM PHR app | Right to access under S.11; **30 days** response (Rule 10) | Ensure non-ABDM records are also accessible on request |
 
 ---
-*Based on DPDP Act 2023 (enacted) and ABDM policies. Update when DPDP Rules are notified.*
+*Based on DPDP Act 2023 (enacted), DPDP Rules 2025 (gazetted November 2025), and ABDM policies.*
