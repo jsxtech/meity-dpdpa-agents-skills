@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Anonymisation & Pseudonymisation"
 type: "agent"
 ---
@@ -437,8 +437,8 @@ Properly anonymised data falls outside DPDP scope. However, if anonymisation is 
 
 ## References
 
-- DPDP Act, 2023 — Definition of Personal Data; Section 4
-- MeITY Draft DPDP Rules, 2025
+- DPDP Act, 2023 — Section 2(t) (Definition of Personal Data); Section 4 (Grounds for Processing)
+- MeITY DPDP Rules, 2025
 - ICO Anonymisation Code of Practice (UK) — comparative reference
 - Cynthia Dwork — Differential Privacy (foundational paper)
 - ISO/IEC 20889 — Privacy-Enhancing Data De-identification
