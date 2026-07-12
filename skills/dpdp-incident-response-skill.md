@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Incident Response"
 type: "skill"
 ---
@@ -272,8 +272,7 @@ Q: Is this a personal data breach?
    YES → DPBI notification is MANDATORY (no threshold)
    NO  → No DPDP notification required
 
-Timeline: As prescribed by DPDP Rules (pending notification)
-          Interim target: Within 72 hours of becoming aware
+Timeline: Within 72 hours of becoming aware (DPDP Rules, 2025)
           If full information unavailable → notify with what is known;
           supplement later
 
@@ -359,6 +358,67 @@ TO: Data Protection Board of India
 ```
 
 **Output:** DPBI notification drafted; filed; reference number recorded.
+
+---
+
+### Capability 6A: CERT-In 6-Hour Notification
+
+**Trigger:** "notify CERT-In", "6 hour notification", "CERT-In breach report", "cyber incident report"
+
+> ℹ️ **Separate Obligation:** CERT-In notification is mandated under the **CERT-In Directions of April 2022** (issued under Section 70B of the IT Act, 2000) — not the DPDP Act. It applies independently and has a **6-hour** timeline from awareness of the incident. This is in addition to any DPBI notification under DPDP.
+
+**When to Notify CERT-In:**
+
+```
+CERT-IN NOTIFICATION REQUIREMENT
+─────────────────────────────────────────────────────────
+Applies to: ALL organisations (body corporates, government entities)
+Trigger: Any of the following cyber incidents:
+  □ Targeted scanning/probing of critical networks/systems
+  □ Compromise of critical systems/information
+  □ Unauthorised access of IT systems/data
+  □ Defacement of website or intrusion into website
+  □ Malicious code attacks (e.g., ransomware, spyware)
+  □ Attack on servers / critical infrastructure
+  □ Identity theft, spoofing, phishing attacks
+  □ Denial of Service (DoS) / Distributed DoS attacks
+  □ Data breach / data leak
+  □ Attacks on IoT devices and associated systems
+  □ Attacks or incidents relating to big data, blockchain, virtual assets, robotics, 3D/4D printing, AI/ML
+
+Timeline: Within 6 HOURS of noticing the incident
+          (NOT 6 hours from confirmation — from first awareness)
+
+Reporting channel: incident@cert-in.org.in
+Portal: https://www.cert-in.org.in/
+─────────────────────────────────────────────────────────
+```
+
+**CERT-In Notification Steps:**
+1. Confirm incident falls within reportable categories (see list above).
+2. Identify **first awareness time** — this starts the 6-hour clock.
+3. Gather minimum information:
+   - Organisation name and contact details
+   - Date/time of incident and detection
+   - Type of incident (from category list)
+   - Systems/networks affected
+   - Brief description of impact
+4. File report via CERT-In portal or email within **6 hours**.
+5. Provide additional details and forensic findings as they become available (follow-up reports).
+6. Log the submission with timestamp and acknowledgement reference.
+
+**Key Differences from DPBI Notification:**
+
+| Aspect | CERT-In | DPBI (under DPDP Act) |
+|---|---|---|
+| Legal basis | IT Act 2000, S.70B + CERT-In Directions 2022 | DPDP Act 2023, S.8(6) |
+| Timeline | **6 hours** from awareness | 72 hours (DPDP Rules 2025) |
+| Scope | All cyber incidents (not just personal data) | Personal data breaches only |
+| Threshold | No materiality threshold | No threshold (any personal data breach) |
+| Applies to | All entities (body corporates + govt) | Data Fiduciaries only |
+| Penalty for non-compliance | Up to ₹1 lakh + imprisonment (IT Act) | Up to ₹200 crore (DPDP Act) |
+
+**Output:** CERT-In notification filed within 6 hours; acknowledgement logged; DPBI notification tracked separately.
 
 ---
 
@@ -494,10 +554,13 @@ progresses.
 |---|---|---|---|---|
 | Escalate to DPO | 30 minutes | 2 hours | 8 hours | 24 hours |
 | Containment initiated | 1 hour | 4 hours | 24 hours | 72 hours |
-| DPBI notification | 72 hours | 72 hours | 72 hours | 72 hours |
+| DPBI notification ⚠️ | 72 hours | 72 hours | 72 hours | 72 hours |
+| CERT-In notification | 6 hours | 6 hours | 6 hours | 6 hours |
 | Data Principal notification | 24–48 hours | 48–72 hours | As needed | N/A |
 | Post-incident review | 14 days | 14 days | 30 days | 30 days |
 | Board report | 7 days | 14 days | 30 days | Quarterly |
+
+> ⚠️ **DPDP Rules 2025:** The 72-hour DPBI notification timeline is prescribed under the DPDP Rules 2025 (gazetted November 2025). The 6-hour CERT-In timeline is separately mandated under CERT-In Directions 2022 and applies independently of DPDP Rules.
 
 ---
 
@@ -529,6 +592,7 @@ progresses.
 | `/ir-contain` | Run containment playbook for incident type |
 | `/ir-notify-decision` | Make DPBI / Data Principal notification decision |
 | `/ir-dpbi-draft` | Draft DPBI breach notification |
+| `/ir-certin` | Draft and file CERT-In 6-hour notification |
 | `/ir-dp-draft` | Draft Data Principal breach notification |
 | `/ir-review` | Run post-incident review |
 
