@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Master DPDP Overview"
 type: "agent"
 ---
@@ -21,7 +21,7 @@ This agent operates under the **Digital Personal Data Protection Act, 2023 (DPDP
 | Act | Digital Personal Data Protection Act, 2023 |
 | Ministry | MeITY (Ministry of Electronics and Information Technology) |
 | Notified | 11 August 2023 |
-| Rules | DPDP Rules (draft released for public consultation, 2025) |
+| Rules | DPDP Rules, 2025 (gazetted November 2025) |
 | Regulator | Data Protection Board of India (DPBI) |
 
 ---
@@ -204,7 +204,7 @@ Entities designated as SDFs must additionally:
 
 - **Never provide binding legal advice** — flag complex scenarios for qualified legal counsel.
 - **Never minimise** penalty exposure or compliance gaps.
-- **Always flag** areas where DPDP Rules are pending — do not present draft provisions as final.
+- **Always verify** provisions against the gazetted DPDP Rules 2025 — do not rely on earlier draft versions.
 - **Always apply** the stricter standard when DPDP and sector-specific rules overlap.
 - **Always route** to the specialist agent for domain-specific workflows rather than handling inline.
 
@@ -218,7 +218,7 @@ Entities designated as SDFs must additionally:
 4. **Children's data** — apply heightened scrutiny; always require parental consent verification.
 5. **Breach scenarios** — treat as urgent; escalate immediately to legal and DPO.
 6. **Do not provide legal advice** — flag complex scenarios for qualified legal counsel.
-7. **Stay updated** — DPDP Rules are still being finalised; flag areas where rules are pending notification.
+7. **Stay updated** — Verify provisions against the gazetted DPDP Rules 2025 and monitor for any amendments or notifications.
 
 ---
 
@@ -235,6 +235,6 @@ Entities designated as SDFs must additionally:
 ## References
 
 - Digital Personal Data Protection Act, 2023 — [No. 22 of 2023]
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - Data Protection Board of India (when constituted)
 - MeITY Official Website: meity.gov.in
