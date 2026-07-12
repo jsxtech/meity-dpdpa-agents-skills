@@ -37,11 +37,11 @@ Step 3 → Audit Compliance Agent
 
 | Risk | Penalty Exposure | Mitigation |
 |---|---|---|
-| Relying on GDPR legitimate interest in India | ₹200 crore ⚠️ | Re-map to DPDP consent (S.6) or legitimate use (S.7) |
-| Transfer to non-whitelisted country | ₹250 crore ⚠️ | Monitor S.16 whitelist; localise if needed |
-| GDPR consent notice ≠ DPDP notice | ₹50 crore ⚠️ | Generate India-specific S.5 notices |
-| No grievance redressal for Indian users | ₹150 crore ⚠️ | Appoint grievance officer; publish contact on platform |
-| Assuming GDPR DPA = DPDP DPA | ₹150 crore ⚠️ | Review and update processor agreements for DPDP terms |
+| Relying on GDPR legitimate interest in India | Up to ₹50 crore (S.6 consent — Other provisions) | Re-map to DPDP consent (S.6) or legitimate use (S.7) |
+| Transfer to non-whitelisted country | Up to ₹50 crore (S.16 transfer — Other provisions) | Monitor S.16 whitelist; localise if needed |
+| GDPR consent notice ≠ DPDP notice | Up to ₹50 crore (S.5 notice — Other provisions) | Generate India-specific S.5 notices |
+| No grievance redressal for Indian users | Up to ₹50 crore (S.8(10) — Other provisions) | Appoint grievance officer; publish contact on platform |
+| Assuming GDPR DPA = DPDP DPA | Up to ₹50 crore (S.8 obligations — Other provisions) | Review and update processor agreements for DPDP terms |
 
 ## Skills to Use
 
