@@ -24,7 +24,7 @@ Alphabetically sorted terms with definitions and Act section references.
 
 **Data Principal Duties** — Obligations imposed on Data Principals, including providing authentic information, not suppressing material information, not filing false or frivolous complaints, and complying with applicable laws when exercising rights. Breach may attract a penalty of up to ₹10,000. *(Section 15, DPDP Act 2023)*
 
-**Data Processor** — Any person who processes personal data on behalf of a Data Fiduciary. *(Section 2(7), DPDP Act 2023)*
+**Data Processor** — Any person who processes personal data on behalf of a Data Fiduciary. *(Section 2(8), DPDP Act 2023)*
 
 **Data Protection Board of India (DPBI)** — The adjudicatory body established under the Act to determine non-compliance, impose penalties, and direct remedial action. *(Sections 18–28, DPDP Act 2023)*
 
@@ -32,7 +32,7 @@ Alphabetically sorted terms with definitions and Act section references.
 
 **Data Protection Officer (DPO)** — An officer appointed by a Significant Data Fiduciary to serve as the point of contact for grievance redressal and compliance oversight. *(Section 10(2), DPDP Act 2023)*
 
-**Digital Personal Data** — Personal data that is in digital form, or personal data collected in non-digital form and subsequently digitised. *(Section 2(8), DPDP Act 2023)*
+**Digital Personal Data** — Personal data that is in digital form, or personal data collected in non-digital form and subsequently digitised. *(Section 2(9), DPDP Act 2023)*
 
 **Erasure** — The deletion of personal data by the Data Fiduciary upon withdrawal of consent or when the specified purpose is fulfilled. *(Section 8(7), DPDP Act 2023)*
 
