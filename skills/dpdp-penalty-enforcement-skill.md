@@ -1,7 +1,7 @@
 ---
 version: "1.2"
 last_updated: "2026-04-30"
-dpdp_rules_version: "draft-2025"
+dpdp_rules_version: "notified-2025"
 domain: "Penalty & Enforcement"
 type: "skill"
 ---
@@ -449,7 +449,7 @@ Vendor / processor      | ₹50 crore   | [1-5]      | [1-5]           | [Adequa
 ## References
 
 - DPDP Act, 2023 — Schedule (Penalties), Sections 27–34 (DPBI and Enforcement)
-- MeITY Draft DPDP Rules, 2025
+- MeITY DPDP Rules, 2025 (Notified)
 - Data Protection Board of India Procedure Rules (pending)
 - TDSAT — Telecom Disputes Settlement and Appellate Tribunal Act
 - CERT-In Directions for enforcement reference
