@@ -161,7 +161,7 @@ severity_engine:
 - **Actions:** Notify DPBI within 72h; notify Data Principals (harm likely); file CERT-In 6h report (cyber incident).
 
 ### Example B — Laptop lost, full-disk encrypted, keys safe, 400 basic records
-- data_categories = basic (1), volume = 1k–100k (0 for 400 → <1k = 0), encryption = encrypted_keys_safe (0), harm = low (1)
+- data_categories = basic (1), volume = <1k (400 records → 0), encryption = encrypted_keys_safe (0), harm = low (1)
 - **Score = 1+0+0+1 = 2 → S4 (Low)**
 - **Actions:** Notify DPBI within 72h (still mandatory); Data Principal notice usually not required — document rationale; assess CERT-In applicability.
 
