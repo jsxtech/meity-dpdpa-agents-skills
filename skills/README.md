@@ -33,6 +33,9 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 19 | `dpdp-vendor-risk-skill.md` | Vendor risk tiering, due-diligence questionnaires, scoring rubric, sub-processor assessment | Procurement, DPO, Security, Legal |
 | 20 | `dpdp-startup-msme-skill.md` | Lean/minimum-viable compliance, founder-DPO, low-cost security, Rule 23 exemption watch | Founders, Startup CTOs, MSME owners |
 | 21 | `dpdp-breach-forensics-skill.md` | Evidence preservation, chain of custody, root-cause analysis, DPBI-ready forensic report | CISO, Security, IR Teams, DPO, Legal |
+| 22 | `dpdp-notice-drafting-skill.md` | Schedule II notice templates, layered/just-in-time notices, plain language, localisation | Legal, Product, UX Writers, DPO |
+| 23 | `dpdp-identity-verification-skill.md` | Proportionate requester verification, anti-fraud, nominee/guardian checks, data minimisation | Rights Teams, DPO, Security, Support |
+| 24 | `dpdp-cookie-tracking-skill.md` | Cookie/tracker inventory, no-dark-pattern banners, prior consent, SDK governance, consent strings | Web/App Engineers, MarTech, Product, DPO |
 
 ---
 
@@ -61,6 +64,9 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | Assessing and scoring vendor/processor risk | Skill 19 (Vendor Risk) |
 | Lean DPDP compliance for a startup or MSME | Skill 20 (Startup & MSME) |
 | Breach forensics and evidence preservation | Skill 21 (Breach Forensics) |
+| Drafting and localising notices | Skill 22 (Notice Drafting) |
+| Verifying identity of rights requesters | Skill 23 (Identity Verification) |
+| Cookie/tracking consent and SDK governance | Skill 24 (Cookie & Tracking) |
 
 ---
 
@@ -89,7 +95,10 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 19 | Vendor Risk Assessment | 7 | 7 |
 | 20 | Startup & MSME Compliance | 7 | 7 |
 | 21 | Breach Forensics & Evidence | 7 | 7 |
-| **TOTAL** | | **168 capabilities** | **177 commands** |
+| 22 | Notice Drafting & Localisation | 7 | 7 |
+| 23 | Identity Verification | 7 | 7 |
+| 24 | Cookie & Tracking Consent | 7 | 7 |
+| **TOTAL** | | **189 capabilities** | **198 commands** |
 
 ---
 
@@ -121,6 +130,9 @@ Each skill connects to the detailed workflow agents in `/agents/`:
 | `dpdp-nomination-agent.md` | Nomination & deceased data |
 | `dpdp-grievance-redressal-agent.md` | Grievance redressal |
 | `dpdp-consent-renewal-agent.md` | Consent renewal & lifecycle |
+| `dpdp-notice-transparency-agent.md` | Notice & transparency |
+| `dpdp-employee-hr-data-agent.md` | Employee & HR data |
+| `dpdp-adm-profiling-agent.md` | Automated decision-making & profiling |
 
 ---
 
