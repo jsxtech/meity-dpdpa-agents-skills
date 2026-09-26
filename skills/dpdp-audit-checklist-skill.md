@@ -1,6 +1,6 @@
 ---
-version: "1.3.2"
-last_updated: "2026-07-12"
+version: "1.4.0"
+last_updated: "2026-09-26"
 dpdp_rules_version: "notified-2025"
 domain: "Audit Checklist"
 type: "skill"
@@ -376,6 +376,7 @@ CRITICAL NON-COMPLIANCES (must remediate immediately):
 | `/audit-sdf` | Run Domain 12 — SDF obligations audit |
 | `/audit-full` | Run full 12-domain audit with scorecard |
 | `/audit-scorecard` | Generate compliance scorecard and gap report |
+| `/audit-score` | Compute weighted 0–100 score and maturity level via the Compliance Scoring Engine |
 
 ---
 
