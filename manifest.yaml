@@ -1,4 +1,4 @@
-version: '1.4.0'
+version: '1.5.0'
 last_updated: '2026-09-26'
 dpdp_rules_version: "notified-2025"
 
@@ -204,6 +204,54 @@ agents:
       - agents/dpdp-regulatory-monitoring-agent.md
       - agents/dpdp-compliance-roadmap-agent.md
 
+  - file: agents/dpdp-retention-erasure-agent.md
+    domain: Data Retention & Erasure
+    audience: [All Data Fiduciaries]
+    capabilities: 6
+    workflow_count: 6
+    priority: 2
+    tags: [retention, erasure, deletion, legal-hold, purpose-based, Rule-8]
+    act_sections: [8]
+    dependencies:
+      - agents/dpdp-rights-request-agent.md
+      - agents/dpdp-anonymisation-pseudonymisation-agent.md
+
+  - file: agents/dpdp-nomination-agent.md
+    domain: Nomination & Deceased Data
+    audience: [All Data Fiduciaries]
+    capabilities: 5
+    workflow_count: 5
+    priority: 4
+    tags: [nomination, deceased, incapacity, succession, Section-14]
+    act_sections: [11, 12, 13, 14]
+    dependencies:
+      - agents/dpdp-rights-request-agent.md
+      - agents/dpdp-retention-erasure-agent.md
+
+  - file: agents/dpdp-grievance-redressal-agent.md
+    domain: Grievance Redressal
+    audience: [All Data Fiduciaries]
+    capabilities: 5
+    workflow_count: 5
+    priority: 2
+    tags: [grievance, redressal, SLA, 30-day, escalation, DPBI]
+    act_sections: [13]
+    dependencies:
+      - agents/dpdp-rights-request-agent.md
+      - agents/dpdp-dpbi-complaint-response-agent.md
+
+  - file: agents/dpdp-consent-renewal-agent.md
+    domain: Consent Renewal & Lifecycle
+    audience: [All Data Fiduciaries]
+    capabilities: 5
+    workflow_count: 5
+    priority: 3
+    tags: [consent, renewal, re-consent, expiry, lifecycle, consent-fatigue]
+    act_sections: [5, 6, 9]
+    dependencies:
+      - agents/dpdp-consent-management-agent.md
+      - agents/dpdp-children-data-agent.md
+
 skills:
   - file: skills/meity-dpdp-privacy-skill.md
     domain: Master DPDP Skill
@@ -373,4 +421,44 @@ skills:
     priority: 2
     tags: [programme, KPIs, annual-plan, culture, board-reporting]
     act_sections: [8, 10]
+    dependencies: []
+
+  - file: skills/dpdp-retention-schedule-skill.md
+    domain: Data Retention Schedule
+    audience: [DPO, IT, Data Engineers, Records Management, Legal]
+    capabilities: 7
+    quick_commands: 7
+    priority: 2
+    tags: [retention, deletion, legal-hold, lifecycle, backups]
+    act_sections: [8]
+    dependencies: []
+
+  - file: skills/dpdp-vendor-risk-skill.md
+    domain: Vendor Risk Assessment
+    audience: [Procurement, DPO, Security, Vendor Management, Legal]
+    capabilities: 7
+    quick_commands: 7
+    priority: 3
+    tags: [vendor, processor, risk-scoring, due-diligence, sub-processor]
+    act_sections: [8]
+    dependencies: []
+
+  - file: skills/dpdp-startup-msme-skill.md
+    domain: Startup & MSME Compliance
+    audience: [Founders, Startup CTOs, MSME owners, Fractional DPOs]
+    capabilities: 7
+    quick_commands: 7
+    priority: 3
+    tags: [startup, MSME, lean-compliance, minimum-viable, Rule-23]
+    act_sections: [5, 6, 8, 9, 10]
+    dependencies: []
+
+  - file: skills/dpdp-breach-forensics-skill.md
+    domain: Breach Forensics & Evidence
+    audience: [CISO, Security, IR Teams, DPO, Legal]
+    capabilities: 7
+    quick_commands: 7
+    priority: 3
+    tags: [forensics, evidence, chain-of-custody, root-cause, DPBI-defensibility]
+    act_sections: [8]
     dependencies: []
