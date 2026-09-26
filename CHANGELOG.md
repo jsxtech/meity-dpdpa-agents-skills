@@ -11,6 +11,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [Unreleased]
+
+### Added
+- **Suite validation script** (`scripts/validate_suite.py`) — enforces the structural checks previously done by hand: manifest↔file reconciliation, per-agent workflow counts, per-skill quick-command counts, global command-name uniqueness, INTEGRATION registry completeness, README stat agreement, Act section-range and Section 7 sub-clause validity, stale draft-Bill citation detection, relative-link integrity, frontmatter completeness, and mkdocs nav resolution.
+- **CI workflow** (`.github/workflows/validate.yml`) — runs the validation script, cspell, and a lychee link check on every push and pull request to `main`.
+
+---
+
 ## [v1.6.0] — 2026-09-26
 
 ### Added
