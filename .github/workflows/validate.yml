@@ -49,3 +49,21 @@ jobs:
         with:
           args: --no-progress --offline "**/*.md"
           fail: true
+
+  toolkit-tests:
+    name: Toolkit tests (pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Run toolkit tests
+        working-directory: toolkit
+        run: python -m pytest -q
