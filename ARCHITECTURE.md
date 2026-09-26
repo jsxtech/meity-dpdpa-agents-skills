@@ -22,6 +22,7 @@ graph TD
         Grievance["Grievance Redressal Agent"]
         Nominate["Nomination Agent"]
         Renewal["Consent Renewal Agent"]
+        Notice["Notice & Transparency Agent"]
     end
 
     subgraph Specialist
@@ -30,6 +31,8 @@ graph TD
         LegUse["Legitimate Use Agent"]
         CrossBorder["Cross-Border Agent"]
         Local["Localisation Agent"]
+        HRData["Employee & HR Data Agent"]
+        ADM["ADM & Profiling Agent"]
     end
 
     subgraph Governance
@@ -60,6 +63,9 @@ graph TD
     Master --> Grievance
     Master --> Nominate
     Master --> Renewal
+    Master --> Notice
+    Master --> HRData
+    Master --> ADM
 
     %% Key inter-agent dependencies
     Breach -->|notify| DPBI
@@ -79,6 +85,10 @@ graph TD
     Nominate -->|rights via| Rights
     Grievance -->|escalate to| DPBI
     Renewal -->|refresh| Consent
+    Notice -->|supports| Consent
+    HRData -->|basis via| LegUse
+    ADM -->|assess via| DPIA
+    ADM -->|children ban via| Children
 ```
 
 ## Skill-to-Agent Mapping
@@ -179,3 +189,6 @@ graph LR
 | Nomination Agent | Rights Request Agent | Nominee exercises Data Principal rights |
 | Grievance Redressal Agent | DPBI Complaint Response Agent | Escalates exhausted grievances |
 | Consent Renewal Agent | Consent Management Agent | Refreshes and re-collects consent |
+| Notice & Transparency Agent | Consent Management Agent | Notice supports and precedes consent |
+| Employee & HR Data Agent | Legitimate Use Agent | Employment processing basis (S.7(i)) |
+| ADM & Profiling Agent | DPIA Agent | DPIA for high-risk automated decisions |
