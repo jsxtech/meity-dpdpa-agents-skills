@@ -1,5 +1,5 @@
-version: '1.3.2'
-last_updated: '2026-07-12'
+version: '1.4.0'
+last_updated: '2026-09-26'
 dpdp_rules_version: "notified-2025"
 
 agents:
@@ -192,6 +192,18 @@ agents:
     dependencies:
       - agents/dpdp-cross-border-transfer-agent.md
 
+  - file: agents/dpdp-rules-reconciliation-agent.md
+    domain: Rules Reconciliation
+    audience: [DPO, Legal, Compliance]
+    capabilities: 7
+    workflow_count: 7
+    priority: 3
+    tags: [rules, reconciliation, gap-assessment, provisions, notified-2025]
+    act_sections: [6, 8, 9, 10, 16]
+    dependencies:
+      - agents/dpdp-regulatory-monitoring-agent.md
+      - agents/dpdp-compliance-roadmap-agent.md
+
 skills:
   - file: skills/meity-dpdp-privacy-skill.md
     domain: Master DPDP Skill
@@ -247,7 +259,7 @@ skills:
     domain: Consent Manager Platform
     audience: [Consent Manager entities, Tech teams]
     capabilities: 7
-    quick_commands: 7
+    quick_commands: 10
     priority: 3
     tags: [consent-manager, registration, interoperability, artefact]
     act_sections: [6, 7]
@@ -287,7 +299,7 @@ skills:
     domain: Incident Response
     audience: [CISO, DPO, Legal, Security]
     capabilities: 9
-    quick_commands: 9
+    quick_commands: 10
     priority: 2
     tags: [incident, breach, containment, playbook, DPBI-notification, CERT-In]
     act_sections: [8]
@@ -297,7 +309,7 @@ skills:
     domain: Audit Checklist
     audience: [Auditors, DPO, Compliance]
     capabilities: 12
-    quick_commands: 14
+    quick_commands: 15
     priority: 2
     tags: [audit, checklist, controls, scoring, 159-controls]
     act_sections: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
