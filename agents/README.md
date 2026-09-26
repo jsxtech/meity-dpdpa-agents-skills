@@ -37,6 +37,7 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | 23 | `dpdp-notice-transparency-agent.md` | Section 5 / Schedule II notices, layered & just-in-time notices, multi-language, versioning | All Data Fiduciaries |
 | 24 | `dpdp-employee-hr-data-agent.md` | Employee data lifecycle (recruitment→employment→exit), S.7(f) basis, monitoring, exit data | Employers, HR, DPO, Legal |
 | 25 | `dpdp-adm-profiling-agent.md` | Automated decisions & profiling: transparency, contestability, DPIA, children's profiling ban | Data Science, Product, DPO, Legal |
+| 26 | `dpdp-dsar-metrics-agent.md` | Grievance/DSAR metrics: volume, 30-day SLA adherence, backlog, board & DPBI reporting | DPO, Compliance, Rights Teams |
 
 ---
 
@@ -68,6 +69,7 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | Drafting notices / transparency obligations | Agent 23 (notice & transparency) |
 | Handling employee / HR data | Agent 24 (employee & HR data) |
 | Automated decisions or profiling | Agent 25 (ADM & profiling) |
+| Measuring rights/grievance SLAs and reporting | Agent 26 (grievance & DSAR metrics) |
 
 ---
 
@@ -94,6 +96,7 @@ Agent 22 (Renewal) ──► Agent 2 (Consent), Agent 12 (Children)
 Agent 23 (Notice)  ──► Agent 2 (Consent), Agent 7 (Policy)
 Agent 24 (HR Data) ──► Agent 14 (Legit. Use), Agent 2 (Consent)
 Agent 25 (ADM)     ──► Agent 5 (DPIA), Agent 12 (Children)
+Agent 26 (Metrics) ──► Agent 4 (Rights), Agent 21 (Grievance)
 ─────────────────────────────────────────────────────────────────
 ```
 
