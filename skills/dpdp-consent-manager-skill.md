@@ -1,6 +1,6 @@
 ---
-version: "1.3.2"
-last_updated: "2026-07-12"
+version: "1.4.0"
+last_updated: "2026-09-26"
 dpdp_rules_version: "notified-2025"
 domain: "Consent Manager"
 type: "skill"
@@ -288,6 +288,80 @@ CONSENT MANAGER (registered entity)
 
 ---
 
+## Interoperability & Artefact Reference (Rule 4(4))
+
+This section makes the consent-artefact and interoperability model implementation-grade. Under **Rule 4(4)** of the DPDP Rules 2025, Consent Managers must expose **API-based, interoperable** consent exchange, drawing on the Account Aggregator (RBI) pattern. Capability 2 defines the artefact; this section defines the **wire contract** for exchanging and revoking it.
+
+### A. Interoperability API Contract
+
+All endpoints are authenticated (mTLS + signed request bodies) and versioned under `/v1`.
+
+| Method & Path | Purpose | Caller |
+|---|---|---|
+| `POST /v1/consent/request` | Data Fiduciary requests consent for stated purposes | Data Fiduciary → Consent Manager |
+| `GET /v1/consent/{consent_id}` | Fetch current artefact + status | Data Fiduciary → Consent Manager |
+| `POST /v1/consent/{consent_id}/withdraw` | Data Principal / DF initiates withdrawal | either → Consent Manager |
+| `POST /v1/consent/notify` | Consent Manager pushes status change (webhook) | Consent Manager → Data Fiduciary |
+
+**Consent request → response:**
+
+```json
+// POST /v1/consent/request
+{
+  "data_fiduciary": { "id": "df_registered_id", "dpbi_registration": "DF-1234" },
+  "data_principal_ref": "dp_hashed_identifier",
+  "purposes": [
+    { "purpose_id": "p001", "description": "Loan eligibility check",
+      "data_categories": ["income", "credit_history"], "expiry": "2026-06-15T00:00:00Z" }
+  ],
+  "notice_url": "https://df.example/notice-v2.3", "notice_version": "v2.3"
+}
+
+// 201 Created
+{ "consent_id": "uuid-v4", "status": "pending_data_principal_approval",
+  "redirect_url": "https://cm.example/approve/uuid-v4" }
+```
+
+### B. Withdrawal-Propagation Sequence
+
+When a Data Principal withdraws consent, the Consent Manager must propagate the revocation to **every** Data Fiduciary holding an active artefact for that purpose, and each must stop processing.
+
+```
+Data Principal        Consent Manager             Data Fiduciary(ies)
+     |  withdraw(consent_id)  |                          |
+     |----------------------->|  mark artefact revoked   |
+     |                        |  (withdrawn_at = now)    |
+     |                        |  POST /consent/notify -->|  stop processing
+     |                        |      {status:revoked}    |  purge/anonymise per policy
+     |                        |<-- 200 ack --------------|  return processing_ceased=true
+     |  confirmation          |                          |
+     |<-----------------------|                          |
+```
+
+**Status-change callback contract (`POST /v1/consent/notify`):**
+
+```json
+{ "consent_id": "uuid-v4", "status": "revoked",
+  "changed_at": "2026-01-10T09:00:00Z", "reason": "data_principal_withdrawal",
+  "required_action": "cease_processing" }
+```
+Data Fiduciary must acknowledge within a bounded SLA and confirm `processing_ceased`. Non-acknowledgement is a compliance event the Consent Manager logs and escalates.
+
+### C. Artefact Validation Rules
+
+Before acting on an artefact, a Data Fiduciary MUST verify:
+
+1. **Signature** valid against the Consent Manager's published key (RS256).
+2. **Not expired** — every referenced purpose `expiry` is in the future.
+3. **Status = active** — `withdrawal.withdrawn_at` is null.
+4. **Purpose match** — intended processing maps to an approved `purpose_id`; no scope creep.
+5. **Notice linkage** — `notice_version` matches the notice the Data Principal saw.
+6. **Registration** — both `df` and `cm` DPBI registrations are current.
+
+Any failed check → do not process; log and request a fresh artefact.
+
+---
+
 ## Consent Manager Obligations Summary
 
 ```
@@ -340,6 +414,9 @@ CONSENT MANAGER OBLIGATIONS
 | `/cm-withdrawal` | Process consent withdrawal and propagation |
 | `/cm-audit` | Conduct Consent Manager compliance audit |
 | `/cm-grievance` | Handle Data Principal grievance on CM platform |
+| `/cm-artefact` | Generate or validate a machine-readable consent artefact (JSON) |
+| `/cm-interop` | Design the Rule 4(4) interoperability API contract for consent exchange |
+| `/cm-withdraw-flow` | Model the withdrawal-propagation sequence and status-callback contract |
 
 ---
 
