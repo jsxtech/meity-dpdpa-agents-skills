@@ -26,6 +26,9 @@ flowchart TD
     START --> P{Nomination / deceased data?}
     START --> Q{Grievance received?}
     START --> R{Renewing consent?}
+    START --> S{Drafting a notice?}
+    START --> T{Employee / HR data?}
+    START --> U{Automated decision / profiling?}
 
     A -->|Yes| A1[Compliance Roadmap Agent]
     A1 --> A2[Master Agent]
@@ -70,6 +73,10 @@ flowchart TD
     P -->|Yes| P1[Nomination Agent]
     Q -->|Yes| Q1[Grievance Redressal Agent]
     R -->|Yes| R1[Consent Renewal Agent]
+
+    S -->|Yes| S1[Notice & Transparency Agent]
+    T -->|Yes| T1[Employee & HR Data Agent]
+    U -->|Yes| U1[ADM & Profiling Agent]
 ```
 
 ---
@@ -95,6 +102,9 @@ flowchart TD
 | Nomination or deceased-data handling | Nomination Agent | Rights Request Agent, Retention & Erasure Agent | — |
 | Data Principal grievance | Grievance Redressal Agent | DPBI Complaint Response Agent | DPO Governance |
 | Renewing or refreshing consent | Consent Renewal Agent | Consent Management Agent, Children Data Agent | Consent Manager |
+| Drafting or localising a notice | Notice & Transparency Agent | Consent Management Agent, Policy Document Generator Agent | Notice Drafting |
+| Employee or HR data processing | Employee & HR Data Agent | Legitimate Use Agent, Consent Management Agent | Sector-Specific |
+| Automated decision-making or profiling | ADM & Profiling Agent | DPIA Agent, Children Data Agent | AI/ML Ethics |
 | Anonymising data | Anonymisation Agent | — | AI/ML Ethics |
 | Need to train staff | — | — | Training & Awareness |
 | Need to draft / update privacy policy | Policy Document Generator Agent | — | Privacy by Design |
