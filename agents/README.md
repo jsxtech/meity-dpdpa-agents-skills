@@ -34,6 +34,9 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | 20 | `dpdp-nomination-agent.md` | Right to nominate (S.14); deceased/incapacitated Data Principal data handling | All Data Fiduciaries |
 | 21 | `dpdp-grievance-redressal-agent.md` | Grievance mechanism, 30-day SLA, escalation, DPBI handoff (S.13, Rule 10(2)) | All Data Fiduciaries |
 | 22 | `dpdp-consent-renewal-agent.md` | Consent renewal, re-consent on purpose change, expiry, child-to-adult transition | All Data Fiduciaries |
+| 23 | `dpdp-notice-transparency-agent.md` | Section 5 / Schedule II notices, layered & just-in-time notices, multi-language, versioning | All Data Fiduciaries |
+| 24 | `dpdp-employee-hr-data-agent.md` | Employee data lifecycle (recruitment→employment→exit), S.7(i) basis, monitoring, exit data | Employers, HR, DPO, Legal |
+| 25 | `dpdp-adm-profiling-agent.md` | Automated decisions & profiling: transparency, contestability, DPIA, children's profiling ban | Data Science, Product, DPO, Legal |
 
 ---
 
@@ -62,6 +65,9 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | Data Principal nominates / handling deceased data | Agent 20 (nomination) |
 | Handling a Data Principal grievance | Agent 21 (grievance redressal) |
 | Renewing or refreshing consent | Agent 22 (consent renewal) |
+| Drafting notices / transparency obligations | Agent 23 (notice & transparency) |
+| Handling employee / HR data | Agent 24 (employee & HR data) |
+| Automated decisions or profiling | Agent 25 (ADM & profiling) |
 
 ---
 
@@ -85,6 +91,9 @@ Agent 19 (Retain)  ──► Agent 4 (Rights), Agent 13 (Anon.)
 Agent 20 (Nom.)    ──► Agent 4 (Rights), Agent 19 (Retain)
 Agent 21 (Grievance)─► Agent 9 (DPBI), Agent 4 (Rights)
 Agent 22 (Renewal) ──► Agent 2 (Consent), Agent 12 (Children)
+Agent 23 (Notice)  ──► Agent 2 (Consent), Agent 7 (Policy)
+Agent 24 (HR Data) ──► Agent 14 (Legit. Use), Agent 2 (Consent)
+Agent 25 (ADM)     ──► Agent 5 (DPIA), Agent 12 (Children)
 ─────────────────────────────────────────────────────────────────
 ```
 
