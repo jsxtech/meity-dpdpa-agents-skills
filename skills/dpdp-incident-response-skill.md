@@ -1,6 +1,6 @@
 ---
-version: "1.3.2"
-last_updated: "2026-07-12"
+version: "1.4.0"
+last_updated: "2026-09-26"
 dpdp_rules_version: "notified-2025"
 domain: "Incident Response"
 type: "skill"
@@ -588,6 +588,7 @@ progresses.
 |---|---|
 | `/ir-detect` | Identify and configure incident detection sources |
 | `/ir-triage` | Triage and classify an incident |
+| `/ir-severity` | Compute breach severity tier via the Breach Severity Decision Engine |
 | `/ir-escalate` | Execute escalation matrix |
 | `/ir-contain` | Run containment playbook for incident type |
 | `/ir-notify-decision` | Make DPBI / Data Principal notification decision |
