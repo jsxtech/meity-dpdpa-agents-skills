@@ -1,4 +1,4 @@
-version: '1.5.0'
+version: '1.6.0'
 last_updated: '2026-09-26'
 dpdp_rules_version: "notified-2025"
 
@@ -252,6 +252,42 @@ agents:
       - agents/dpdp-consent-management-agent.md
       - agents/dpdp-children-data-agent.md
 
+  - file: agents/dpdp-notice-transparency-agent.md
+    domain: Notice & Transparency
+    audience: [All Data Fiduciaries]
+    capabilities: 5
+    workflow_count: 5
+    priority: 2
+    tags: [notice, transparency, Schedule-II, layered, localisation]
+    act_sections: [5, 6, 8]
+    dependencies:
+      - agents/dpdp-consent-management-agent.md
+      - agents/dpdp-policy-document-generator-agent.md
+
+  - file: agents/dpdp-employee-hr-data-agent.md
+    domain: Employee & HR Data
+    audience: [Employers, HR, DPO, Legal]
+    capabilities: 5
+    workflow_count: 5
+    priority: 3
+    tags: [employee, HR, employment, Section-7, monitoring, recruitment]
+    act_sections: [5, 6, 7, 8, 11, 12, 13, 14]
+    dependencies:
+      - agents/dpdp-legitimate-use-agent.md
+      - agents/dpdp-consent-management-agent.md
+
+  - file: agents/dpdp-adm-profiling-agent.md
+    domain: Automated Decision-Making & Profiling
+    audience: [Data Science, Product, DPO, Legal]
+    capabilities: 5
+    workflow_count: 5
+    priority: 3
+    tags: [automated-decision, profiling, ADM, algorithm, children, contestability]
+    act_sections: [8, 9, 10]
+    dependencies:
+      - agents/dpdp-dpia-agent.md
+      - agents/dpdp-children-data-agent.md
+
 skills:
   - file: skills/meity-dpdp-privacy-skill.md
     domain: Master DPDP Skill
@@ -461,4 +497,34 @@ skills:
     priority: 3
     tags: [forensics, evidence, chain-of-custody, root-cause, DPBI-defensibility]
     act_sections: [8]
+    dependencies: []
+
+  - file: skills/dpdp-notice-drafting-skill.md
+    domain: Notice Drafting & Localisation
+    audience: [Legal, Product, UX Writers, DPO, Localisation Teams]
+    capabilities: 7
+    quick_commands: 7
+    priority: 2
+    tags: [notice, drafting, layered, plain-language, localisation, Schedule-II]
+    act_sections: [5]
+    dependencies: []
+
+  - file: skills/dpdp-identity-verification-skill.md
+    domain: Identity Verification
+    audience: [Rights Teams, DPO, Security, Support]
+    capabilities: 7
+    quick_commands: 7
+    priority: 2
+    tags: [verification, identity, anti-fraud, proportionate, nominee]
+    act_sections: [11, 12, 13, 14]
+    dependencies: []
+
+  - file: skills/dpdp-cookie-tracking-skill.md
+    domain: Cookie & Tracking Consent
+    audience: [Web/App Engineers, MarTech, Product, DPO]
+    capabilities: 7
+    quick_commands: 7
+    priority: 3
+    tags: [cookie, tracking, SDK, consent-string, dark-patterns, children]
+    act_sections: [5, 6, 9]
     dependencies: []
