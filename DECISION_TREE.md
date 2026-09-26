@@ -22,6 +22,10 @@ flowchart TD
     START --> L{Regulatory change detected?}
     START --> M{Anonymising data?}
     START --> N{Gap-check vs Rules 2025?}
+    START --> O{Retention / erasure?}
+    START --> P{Nomination / deceased data?}
+    START --> Q{Grievance received?}
+    START --> R{Renewing consent?}
 
     A -->|Yes| A1[Compliance Roadmap Agent]
     A1 --> A2[Master Agent]
@@ -61,6 +65,11 @@ flowchart TD
 
     N -->|Yes| N1[Rules Reconciliation Agent]
     N1 --> N2[Compliance Roadmap Agent]
+
+    O -->|Yes| O1[Retention & Erasure Agent]
+    P -->|Yes| P1[Nomination Agent]
+    Q -->|Yes| Q1[Grievance Redressal Agent]
+    R -->|Yes| R1[Consent Renewal Agent]
 ```
 
 ---
@@ -82,6 +91,10 @@ flowchart TD
 | Annual review | Audit Compliance Agent | — | Audit Checklist, Programme Management |
 | Regulatory change detected | Regulatory Monitoring Agent | — | Sector-Specific |
 | Gap-check against notified Rules 2025 | Rules Reconciliation Agent | Compliance Roadmap Agent, Regulatory Monitoring Agent | Audit Checklist |
+| Setting retention or erasing data | Retention & Erasure Agent | Anonymisation Agent, Rights Request Agent | Retention Schedule |
+| Nomination or deceased-data handling | Nomination Agent | Rights Request Agent, Retention & Erasure Agent | — |
+| Data Principal grievance | Grievance Redressal Agent | DPBI Complaint Response Agent | DPO Governance |
+| Renewing or refreshing consent | Consent Renewal Agent | Consent Management Agent, Children Data Agent | Consent Manager |
 | Anonymising data | Anonymisation Agent | — | AI/ML Ethics |
 | Need to train staff | — | — | Training & Awareness |
 | Need to draft / update privacy policy | Policy Document Generator Agent | — | Privacy by Design |
