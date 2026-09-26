@@ -35,7 +35,7 @@ Frontmatter template:
 
 ```yaml
 ---
-version: "1.2"
+version: "1.3.2"
 last_updated: "YYYY-MM-DD"
 dpdp_rules_version: "notified-2025"
 domain: "[Domain Name]"
@@ -67,7 +67,7 @@ Frontmatter template:
 
 ```yaml
 ---
-version: "1.2"
+version: "1.3.2"
 last_updated: "YYYY-MM-DD"
 dpdp_rules_version: "notified-2025"
 domain: "[Domain Name]"
