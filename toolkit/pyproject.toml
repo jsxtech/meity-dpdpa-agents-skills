@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpdp-toolkit"
+version = "0.1.0"
+description = "Executable engines mirroring the DPDP Compliance Suite's documented rulesets (breach severity, compliance scoring)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-SA-4.0" }
+authors = [{ name = "DPDP Compliance Suite Contributors" }]
+keywords = ["dpdp", "privacy", "compliance", "india"]
+
+[project.scripts]
+dpdp = "dpdp_toolkit.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
