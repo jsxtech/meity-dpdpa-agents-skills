@@ -1,6 +1,6 @@
 ---
-version: "1.2"
-last_updated: "2026-04-30"
+version: "1.3.2"
+last_updated: "2026-07-12"
 dpdp_rules_version: "notified-2025"
 domain: "Policy Document Generation"
 type: "agent"
