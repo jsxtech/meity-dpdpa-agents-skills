@@ -18,6 +18,10 @@ graph TD
         Breach["Breach Agent"]
         Vendor["Vendor Agent"]
         Policy["Policy Generator Agent"]
+        Retain["Retention & Erasure Agent"]
+        Grievance["Grievance Redressal Agent"]
+        Nominate["Nomination Agent"]
+        Renewal["Consent Renewal Agent"]
     end
 
     subgraph Specialist
@@ -52,6 +56,10 @@ graph TD
     Master --> DPBI
     Master --> RegMon
     Master --> Recon
+    Master --> Retain
+    Master --> Grievance
+    Master --> Nominate
+    Master --> Renewal
 
     %% Key inter-agent dependencies
     Breach -->|notify| DPBI
@@ -66,6 +74,11 @@ graph TD
     RegMon -->|updates| DPBI
     Recon -->|prioritised gaps to| Roadmap
     RegMon -->|triggers re-assessment in| Recon
+    Rights -->|erasure to| Retain
+    Retain -->|anonymise via| Anon
+    Nominate -->|rights via| Rights
+    Grievance -->|escalate to| DPBI
+    Renewal -->|refresh| Consent
 ```
 
 ## Skill-to-Agent Mapping
@@ -161,3 +174,8 @@ graph LR
 | Regulatory Monitoring Agent | DPBI Agent | Regulatory updates routed to DPBI agent |
 | Rules Reconciliation Agent | Compliance Roadmap Agent | Prioritised per-Rule gaps feed the roadmap |
 | Rules Reconciliation Agent | Regulatory Monitoring Agent | New notifications trigger re-assessment |
+| Retention & Erasure Agent | Anonymisation Agent | Anonymisation where deletion is infeasible |
+| Retention & Erasure Agent | Rights Request Agent | Fulfils erasure requests |
+| Nomination Agent | Rights Request Agent | Nominee exercises Data Principal rights |
+| Grievance Redressal Agent | DPBI Complaint Response Agent | Escalates exhausted grievances |
+| Consent Renewal Agent | Consent Management Agent | Refreshes and re-collects consent |
