@@ -29,6 +29,10 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 15 | `dpdp-international-comparison-skill.md` | DPDP vs GDPR, CCPA, PIPL, PDPA; multi-jurisdiction matrix; transfer mechanisms | DPO, Legal, Global Compliance |
 | 16 | `dpdp-legitimate-use-skill.md` | Section 7 categories, employment/state/emergency bases, documentation, post-emergency | DPO, Legal, HR, Government |
 | 17 | `dpdp-privacy-programme-management-skill.md` | Programme operating model, KPIs, annual plan, culture assessment, board reporting | CPO, DPO, Compliance Head |
+| 18 | `dpdp-retention-schedule-skill.md` | Retention-period templates, deletion workflows, legal hold, backup erasure (Rule 8) | DPO, IT, Data Engineers, Legal |
+| 19 | `dpdp-vendor-risk-skill.md` | Vendor risk tiering, due-diligence questionnaires, scoring rubric, sub-processor assessment | Procurement, DPO, Security, Legal |
+| 20 | `dpdp-startup-msme-skill.md` | Lean/minimum-viable compliance, founder-DPO, low-cost security, Rule 23 exemption watch | Founders, Startup CTOs, MSME owners |
+| 21 | `dpdp-breach-forensics-skill.md` | Evidence preservation, chain of custody, root-cause analysis, DPBI-ready forensic report | CISO, Security, IR Teams, DPO, Legal |
 
 ---
 
@@ -53,6 +57,10 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | Multi-jurisdiction compliance (GDPR + DPDP) | Skill 15 (International Comparison) |
 | Processing without consent (employment, emergency) | Skill 16 (Legitimate Use) |
 | Running the privacy programme operationally | Skill 17 (Programme Management) |
+| Setting retention periods and deletion workflows | Skill 18 (Retention Schedule) |
+| Assessing and scoring vendor/processor risk | Skill 19 (Vendor Risk) |
+| Lean DPDP compliance for a startup or MSME | Skill 20 (Startup & MSME) |
+| Breach forensics and evidence preservation | Skill 21 (Breach Forensics) |
 
 ---
 
@@ -65,19 +73,23 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 3 | Privacy by Design | 9 | 9 |
 | 4 | Sector-Specific | 8 + conflict resolution | 9 |
 | 5 | DPO | 10 | 10 |
-| 6 | Consent Manager | 7 | 7 |
+| 6 | Consent Manager | 7 | 10 |
 | 7 | Penalty & Enforcement | 8 | 8 |
 | 8 | Training & Awareness | 8 | 8 |
 | 9 | AI/ML Ethics | 8 | 8 |
-| 10 | Incident Response | 8 | 8 |
-| 11 | Audit Checklist | 12 domains, 159 controls | 13 |
+| 10 | Incident Response | 9 | 10 |
+| 11 | Audit Checklist | 12 domains, 159 controls | 15 |
 | 12 | Privacy Risk Management | 7 | 8 |
 | 13 | Children's Data | 8 | 8 |
 | 14 | Contract Clauses | 7 | 7 |
 | 15 | International Comparison | 7 | 7 |
 | 16 | Legitimate Use | 6 | 6 |
 | 17 | Privacy Programme Management | 7 | 7 |
-| **TOTAL** | | **139 capabilities** | **142 commands** |
+| 18 | Retention Schedule | 7 | 7 |
+| 19 | Vendor Risk Assessment | 7 | 7 |
+| 20 | Startup & MSME Compliance | 7 | 7 |
+| 21 | Breach Forensics & Evidence | 7 | 7 |
+| **TOTAL** | | **168 capabilities** | **177 commands** |
 
 ---
 
@@ -104,6 +116,11 @@ Each skill connects to the detailed workflow agents in `/agents/`:
 | `dpdp-regulatory-monitoring-agent.md` | Regulatory monitoring |
 | `dpdp-compliance-roadmap-agent.md` | Compliance roadmap |
 | `dpdp-data-localisation-agent.md` | Data localisation |
+| `dpdp-rules-reconciliation-agent.md` | Rules reconciliation |
+| `dpdp-retention-erasure-agent.md` | Data retention & erasure |
+| `dpdp-nomination-agent.md` | Nomination & deceased data |
+| `dpdp-grievance-redressal-agent.md` | Grievance redressal |
+| `dpdp-consent-renewal-agent.md` | Consent renewal & lifecycle |
 
 ---
 
