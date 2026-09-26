@@ -11,6 +11,27 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v1.5.0] — 2026-09-26
+
+### Added
+- **Four new agents** (17 → 22 agents; workflows 124 → 145):
+  - **Data Retention & Erasure Agent** (`agents/dpdp-retention-erasure-agent.md`) — purpose-based retention (Rule 8), erasure execution across systems/processors, legal hold, backup deletion. 6 workflows.
+  - **Nomination & Deceased-Data Agent** (`agents/dpdp-nomination-agent.md`) — Section 14 right to nominate; deceased/incapacitated Data Principal handling. 5 workflows.
+  - **Grievance Redressal Agent** (`agents/dpdp-grievance-redressal-agent.md`) — Section 13 / Rule 10(2) grievance mechanism, 30-day SLA, DPBI handoff. 5 workflows.
+  - **Consent Renewal & Lifecycle Agent** (`agents/dpdp-consent-renewal-agent.md`) — renewal, re-consent on purpose change, expiry, child-to-adult transition. 5 workflows.
+- **Four new skills** (17 → 21 skills; capabilities 140 → 168; quick commands 149 → 177, +28):
+  - **Data Retention Schedule Skill** (`skills/dpdp-retention-schedule-skill.md`) — retention templates, deletion workflows, legal hold, backup erasure.
+  - **Vendor Risk Assessment Skill** (`skills/dpdp-vendor-risk-skill.md`) — risk tiering, due-diligence questionnaires, scoring rubric, sub-processor assessment.
+  - **DPDP for Startups & MSMEs Skill** (`skills/dpdp-startup-msme-skill.md`) — lean/minimum-viable compliance, founder-DPO model, Rule 23 exemption watch.
+  - **Data Breach Forensics & Evidence Skill** (`skills/dpdp-breach-forensics-skill.md`) — evidence preservation, chain of custody, root-cause analysis, DPBI-ready reporting.
+
+### Changed
+- `manifest.yaml` bumped to 1.5.0 with 4 agent and 4 skill entries added.
+- `README.md`, `agents/README.md`, `skills/README.md`, `ARCHITECTURE.md`, `DECISION_TREE.md`, `INTEGRATION.md`, and `mkdocs.yml` updated for the new agents/skills, routing, command registry (+28), graph nodes/edges, and decision branches.
+- Corrected the drifted capability-count table in `skills/README.md` (was 139/142) to match the manifest (now 168 capabilities / 177 commands).
+
+---
+
 ## [v1.4.0] — 2026-09-26
 
 ### Added
