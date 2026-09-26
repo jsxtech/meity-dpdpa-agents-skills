@@ -42,6 +42,7 @@ nav:
       - Consent Renewal: agents/dpdp-consent-renewal-agent.md
       - Cross-Border Transfer: agents/dpdp-cross-border-transfer-agent.md
       - Data Localisation: agents/dpdp-data-localisation-agent.md
+      - DSAR & Grievance Metrics: agents/dpdp-dsar-metrics-agent.md
       - DPIA: agents/dpdp-dpia-agent.md
       - DPBI Complaint Response: agents/dpdp-dpbi-complaint-response-agent.md
       - Employee & HR Data: agents/dpdp-employee-hr-data-agent.md
@@ -70,6 +71,7 @@ nav:
       - DPO: skills/dpdp-dpo-skill.md
       - Identity Verification: skills/dpdp-identity-verification-skill.md
       - Incident Response: skills/dpdp-incident-response-skill.md
+      - Intra-Group Transfer: skills/dpdp-intra-group-transfer-skill.md
       - International Comparison: skills/dpdp-international-comparison-skill.md
       - Legitimate Use: skills/dpdp-legitimate-use-skill.md
       - Notice Drafting & Localisation: skills/dpdp-notice-drafting-skill.md
@@ -79,6 +81,7 @@ nav:
       - Privacy Programme Management: skills/dpdp-privacy-programme-management-skill.md
       - Privacy Risk Management: skills/dpdp-privacy-risk-management-skill.md
       - Retention Schedule: skills/dpdp-retention-schedule-skill.md
+      - RoPA Generator: skills/dpdp-ropa-generator-skill.md
       - Sector-Specific: skills/dpdp-sector-specific-skill.md
       - Startup & MSME: skills/dpdp-startup-msme-skill.md
       - Training & Awareness: skills/dpdp-training-awareness-skill.md
