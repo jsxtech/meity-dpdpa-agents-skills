@@ -15,7 +15,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 - **Suite validation script** (`scripts/validate_suite.py`) — enforces the structural checks previously done by hand: manifest↔file reconciliation, per-agent workflow counts, per-skill quick-command counts, global command-name uniqueness, INTEGRATION registry completeness, README stat agreement, Act section-range and Section 7 sub-clause validity, stale draft-Bill citation detection, relative-link integrity, frontmatter completeness, and mkdocs nav resolution.
-- **CI workflow** (`.github/workflows/validate.yml`) — runs the validation script, cspell, and a lychee link check on every push and pull request to `main`.
+- **CI workflow** (`.github/workflows/validate.yml`) — runs the validation script, cspell, a lychee link check, and the toolkit pytest suite on every push and pull request to `main`.
+- **Executable toolkit** (`toolkit/`) — `dpdp-toolkit` Python package with a `dpdp` CLI and pytest suite implementing the documented decision engines (breach severity per Rule 7(3); weighted compliance scoring). Tests assert the engines reproduce the worked examples in the markdown, preventing docs↔code drift.
+
+---
+
+## [v1.7.0] — 2026-09-26
+
+### Added
+- **New agent — Grievance & DSAR Metrics Agent** (`agents/dpdp-dsar-metrics-agent.md`): operational metrics and reporting for rights requests and grievances — volume, 30-day SLA adherence (Rule 10(2)), backlog, escalation, and board/DPBI reporting. 5 workflows. Agents 25 → 26; workflows 160 → 165.
+- **New skill — Intra-Group Transfer** (`skills/dpdp-intra-group-transfer-skill.md`): group-company data sharing, intra-group agreements, controller/processor role mapping, and the Section 16 cross-border overlay (no group exemption).
+- **New skill — RoPA Generator** (`skills/dpdp-ropa-generator-skill.md`): Records of Processing Activities field schema, generation from the data inventory, lawful-basis and retention linkage, and DPBI-ready export.
+- Skills 24 → 26; capabilities 189 → 203; quick commands 198 → 212 (+14).
+
+### Changed
+- `manifest.yaml` bumped to 1.7.0; `README.md`, `agents/README.md`, `skills/README.md`, `ARCHITECTURE.md`, `DECISION_TREE.md`, `INTEGRATION.md`, and `mkdocs.yml` reconciled for the new agent and skills.
 
 ---
 
