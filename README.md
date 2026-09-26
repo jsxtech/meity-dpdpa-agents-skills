@@ -11,11 +11,11 @@ A comprehensive collection of AI agents and skills designed to help organisation
 
 | Metric | Count |
 |---|---|
-| Agents | 18 |
-| Skills | 17 |
-| Agent Workflows | 124 |
-| Skill Capabilities | 140 |
-| Skill Quick Commands | 149 |
+| Agents | 22 |
+| Skills | 21 |
+| Agent Workflows | 145 |
+| Skill Capabilities | 168 |
+| Skill Quick Commands | 177 |
 
 ## Getting Started
 
@@ -27,8 +27,8 @@ A comprehensive collection of AI agents and skills designed to help organisation
 ## Directory Structure
 
 ```
-├── agents/          # 18 agent definitions (assessment, monitoring, response)
-├── skills/          # 17 skill definitions (operational capabilities)
+├── agents/          # 22 agent definitions (assessment, monitoring, response)
+├── skills/          # 21 skill definitions (operational capabilities)
 ├── examples/        # 7 scenario walkthroughs + 3 sector guides + 6 consent notices + 2 decision engines + penalty calculator
 ├── manifest.yaml    # Suite manifest with all agents, skills, and metadata
 ├── DECISION_TREE.md # Flowchart to select the right agent/skill
