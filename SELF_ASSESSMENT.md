@@ -208,6 +208,12 @@ Calculate your score per domain and sum for an overall score. Maximum possible: 
 
 ---
 
+## Weighted Scoring (Advanced)
+
+The raw 0–120 total above treats every domain equally. For a **risk-adjusted** view that weights high-penalty domains (Security, Breach, Children's Data) more heavily and produces a 0–100 score plus a maturity level, run the results through the [Compliance Scoring Engine](examples/compliance-scoring-engine.md). It converts this self-assessment (and formal audit results) onto a comparable scale and ranks remediation priorities.
+
+---
+
 ## Score Interpretation & Recommended Actions
 
 ### 96–120: Strong Compliance
