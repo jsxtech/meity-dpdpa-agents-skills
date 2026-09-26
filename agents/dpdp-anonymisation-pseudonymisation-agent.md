@@ -437,7 +437,7 @@ Properly anonymised data falls outside DPDP scope. However, if anonymisation is 
 
 ## References
 
-- DPDP Act, 2023 — Section 2(t) (Definition of Personal Data); Section 4 (Grounds for Processing)
+- DPDP Act, 2023 — Section 2(13) (Definition of Personal Data); Section 4 (Grounds for Processing)
 - MeITY DPDP Rules, 2025
 - ICO Anonymisation Code of Practice (UK) — comparative reference
 - Cynthia Dwork — Differential Privacy (foundational paper)
