@@ -384,6 +384,7 @@ Unified table of all 198 quick commands across 24 skills.
 | `/ir-contain` | `dpdp-incident-response-skill.md` | Containment Playbooks |
 | `/ir-notify-decision` | `dpdp-incident-response-skill.md` | DPBI / DP Notification Decision |
 | `/ir-dpbi-draft` | `dpdp-incident-response-skill.md` | DPBI Breach Notification Draft |
+| `/ir-certin` | `dpdp-incident-response-skill.md` | CERT-In 6-Hour Notification |
 | `/ir-dp-draft` | `dpdp-incident-response-skill.md` | Data Principal Notification Draft |
 | `/ir-review` | `dpdp-incident-response-skill.md` | Post-Incident Review |
 | `/ir-severity` | `dpdp-incident-response-skill.md` | Breach Severity Decision Engine |
@@ -391,6 +392,7 @@ Unified table of all 198 quick commands across 24 skills.
 | `/audit-consent` | `dpdp-audit-checklist-skill.md` | Domain 2 — Legal Basis & Consent Audit |
 | `/audit-notice` | `dpdp-audit-checklist-skill.md` | Domain 3 — Notice & Transparency Audit |
 | `/audit-minimisation` | `dpdp-audit-checklist-skill.md` | Domain 4 — Purpose Limitation Audit |
+| `/audit-quality` | `dpdp-audit-checklist-skill.md` | Domain 5 — Data Quality & Accuracy Audit |
 | `/audit-retention` | `dpdp-audit-checklist-skill.md` | Domain 6 — Retention & Deletion Audit |
 | `/audit-security` | `dpdp-audit-checklist-skill.md` | Domain 7 — Security Safeguards Audit |
 | `/audit-rights` | `dpdp-audit-checklist-skill.md` | Domain 8 — Data Principal Rights Audit |
