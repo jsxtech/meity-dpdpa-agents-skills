@@ -40,6 +40,7 @@ graph TD
         DPBI["DPBI Agent"]
         RegMon["Regulatory Monitoring Agent"]
         Recon["Rules Reconciliation Agent"]
+        Metrics["Grievance & DSAR Metrics Agent"]
     end
 
     Master --> DPIA
@@ -89,6 +90,8 @@ graph TD
     HRData -->|basis via| LegUse
     ADM -->|assess via| DPIA
     ADM -->|children ban via| Children
+    Metrics -->|measures| Rights
+    Metrics -->|measures| Grievance
 ```
 
 ## Skill-to-Agent Mapping
@@ -192,3 +195,5 @@ graph LR
 | Notice & Transparency Agent | Consent Management Agent | Notice supports and precedes consent |
 | Employee & HR Data Agent | Legitimate Use Agent | Employment processing basis (S.7(f)) |
 | ADM & Profiling Agent | DPIA Agent | DPIA for high-risk automated decisions |
+| Grievance & DSAR Metrics Agent | Rights Request Agent | Measures DSAR volumes and SLA adherence |
+| Grievance & DSAR Metrics Agent | Grievance Redressal Agent | Measures grievance SLA and escalation |
