@@ -1,6 +1,6 @@
 # DPDP Compliance Suite — AI Integration Guide
 
-Practical guide for integrating the DPDP Compliance Suite (25 agents, 24 skills, 198 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
+Practical guide for integrating the DPDP Compliance Suite (26 agents, 26 skills, 212 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
 
 ---
 
@@ -42,6 +42,9 @@ ROUTING LOGIC — Match user intent to the appropriate agent/skill:
   Notice drafting or transparency             → Notice & Transparency Agent + Notice Drafting Skill
   Employee or HR data processing              → Employee & HR Data Agent
   Automated decision-making or profiling      → ADM & Profiling Agent + AI/ML Ethics Skill
+  Rights/grievance metrics & SLA reporting    → Grievance & DSAR Metrics Agent
+  Group-company / affiliate data sharing      → Intra-Group Transfer Skill
+  Building a Records of Processing (RoPA)      → RoPA Generator Skill
   Anonymising or pseudonymising data          → Anonymisation Agent + AI/ML Ethics Skill
   Privacy policy or notice drafting           → Policy Document Generator Agent
   Consent management or dark patterns         → Consent Management Agent + Consent Manager Skill
@@ -293,7 +296,7 @@ routes:
 
 ## 4. Quick Command Registry
 
-Unified table of all 198 quick commands across 24 skills.
+Unified table of all 212 quick commands across 26 skills.
 
 | Command | Skill File | Capability |
 |---|---|---|
@@ -495,6 +498,20 @@ Unified table of all 198 quick commands across 24 skills.
 | `/cookie-sdk-governance` | `dpdp-cookie-tracking-skill.md` | SDK & Tag Governance |
 | `/cookie-children` | `dpdp-cookie-tracking-skill.md` | Children & Tracking Prohibition |
 | `/cookie-withdraw` | `dpdp-cookie-tracking-skill.md` | Consent Withdrawal & Re-Prompt |
+| `/iga-flowmap` | `dpdp-intra-group-transfer-skill.md` | Intra-Group Data Flow Mapping |
+| `/iga-basis` | `dpdp-intra-group-transfer-skill.md` | Lawful Basis for Group Sharing |
+| `/iga-agreement` | `dpdp-intra-group-transfer-skill.md` | Intra-Group Agreement Design |
+| `/iga-roles` | `dpdp-intra-group-transfer-skill.md` | Controller vs Processor Mapping |
+| `/iga-crossborder` | `dpdp-intra-group-transfer-skill.md` | Cross-Border Overlay |
+| `/iga-shared-services` | `dpdp-intra-group-transfer-skill.md` | Shared-Services & Global HR Flows |
+| `/iga-audit` | `dpdp-intra-group-transfer-skill.md` | Group Accountability & Audit |
+| `/ropa-schema` | `dpdp-ropa-generator-skill.md` | RoPA Field Schema |
+| `/ropa-generate` | `dpdp-ropa-generator-skill.md` | RoPA Generation from Inventory |
+| `/ropa-basis` | `dpdp-ropa-generator-skill.md` | Lawful-Basis Column Population |
+| `/ropa-recipients` | `dpdp-ropa-generator-skill.md` | Cross-Border & Recipient Mapping |
+| `/ropa-retention` | `dpdp-ropa-generator-skill.md` | Retention Linkage |
+| `/ropa-review` | `dpdp-ropa-generator-skill.md` | RoPA Review & Versioning |
+| `/ropa-export` | `dpdp-ropa-generator-skill.md` | DPBI-Ready RoPA Export |
 
 ---
 
@@ -516,7 +533,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 
 - [ ] Load the system prompt from Section 1 into your LLM orchestration layer
 - [ ] Load the routing configuration from Section 3 as a lookup table
-- [ ] Register all 198 quick commands from Section 4 as recognized triggers
+- [ ] Register all 212 quick commands from Section 4 as recognized triggers
 - [ ] Configure hybrid retrieval pipeline (semantic + keyword + reranker)
 - [ ] Set `top_k = 8` with reranking to `top_k = 3` for final context
 
