@@ -29,6 +29,7 @@ flowchart TD
     START --> S{Drafting a notice?}
     START --> T{Employee / HR data?}
     START --> U{Automated decision / profiling?}
+    START --> V{Rights/grievance metrics?}
 
     A -->|Yes| A1[Compliance Roadmap Agent]
     A1 --> A2[Master Agent]
@@ -77,6 +78,7 @@ flowchart TD
     S -->|Yes| S1[Notice & Transparency Agent]
     T -->|Yes| T1[Employee & HR Data Agent]
     U -->|Yes| U1[ADM & Profiling Agent]
+    V -->|Yes| V1[Grievance & DSAR Metrics Agent]
 ```
 
 ---
@@ -105,6 +107,7 @@ flowchart TD
 | Drafting or localising a notice | Notice & Transparency Agent | Consent Management Agent, Policy Document Generator Agent | Notice Drafting |
 | Employee or HR data processing | Employee & HR Data Agent | Legitimate Use Agent, Consent Management Agent | Sector-Specific |
 | Automated decision-making or profiling | ADM & Profiling Agent | DPIA Agent, Children Data Agent | AI/ML Ethics |
+| Rights/grievance metrics & SLA reporting | Grievance & DSAR Metrics Agent | Rights Request Agent, Grievance Redressal Agent | Privacy Programme Management |
 | Anonymising data | Anonymisation Agent | — | AI/ML Ethics |
 | Need to train staff | — | — | Training & Awareness |
 | Need to draft / update privacy policy | Policy Document Generator Agent | — | Privacy by Design |
