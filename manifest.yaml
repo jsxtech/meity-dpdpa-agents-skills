@@ -1,4 +1,4 @@
-version: '1.6.0'
+version: '1.7.0'
 last_updated: '2026-09-26'
 dpdp_rules_version: "notified-2025"
 
@@ -288,6 +288,18 @@ agents:
       - agents/dpdp-dpia-agent.md
       - agents/dpdp-children-data-agent.md
 
+  - file: agents/dpdp-dsar-metrics-agent.md
+    domain: Grievance & DSAR Metrics
+    audience: [DPO, Compliance, Rights Teams]
+    capabilities: 5
+    workflow_count: 5
+    priority: 3
+    tags: [metrics, DSAR, grievance, SLA, reporting, dashboard]
+    act_sections: [11, 12, 13, 14]
+    dependencies:
+      - agents/dpdp-rights-request-agent.md
+      - agents/dpdp-grievance-redressal-agent.md
+
 skills:
   - file: skills/meity-dpdp-privacy-skill.md
     domain: Master DPDP Skill
@@ -527,4 +539,24 @@ skills:
     priority: 3
     tags: [cookie, tracking, SDK, consent-string, dark-patterns, children]
     act_sections: [5, 6, 9]
+    dependencies: []
+
+  - file: skills/dpdp-intra-group-transfer-skill.md
+    domain: Intra-Group Transfer
+    audience: [Group DPOs, Legal, Corporate Compliance, Multinationals]
+    capabilities: 7
+    quick_commands: 7
+    priority: 3
+    tags: [intra-group, affiliate, group-company, shared-services, cross-border]
+    act_sections: [6, 7, 8, 16]
+    dependencies: []
+
+  - file: skills/dpdp-ropa-generator-skill.md
+    domain: RoPA Generation
+    audience: [DPO, Privacy Analysts, IT, Compliance]
+    capabilities: 7
+    quick_commands: 7
+    priority: 2
+    tags: [RoPA, processing-register, accountability, inventory, export]
+    act_sections: [8]
     dependencies: []
