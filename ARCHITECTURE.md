@@ -32,6 +32,7 @@ graph TD
         SDF["SDF Agent"]
         DPBI["DPBI Agent"]
         RegMon["Regulatory Monitoring Agent"]
+        Recon["Rules Reconciliation Agent"]
     end
 
     Master --> DPIA
@@ -50,6 +51,7 @@ graph TD
     Master --> SDF
     Master --> DPBI
     Master --> RegMon
+    Master --> Recon
 
     %% Key inter-agent dependencies
     Breach -->|notify| DPBI
@@ -62,6 +64,8 @@ graph TD
     SDF -->|report to| DPBI
     Policy -->|uses| LegUse
     RegMon -->|updates| DPBI
+    Recon -->|prioritised gaps to| Roadmap
+    RegMon -->|triggers re-assessment in| Recon
 ```
 
 ## Skill-to-Agent Mapping
@@ -155,3 +159,5 @@ graph LR
 | SDF Agent | DPBI Agent | SDF reports submitted to DPBI |
 | Policy Generator Agent | Legitimate Use Agent | Policies reference legitimate use grounds |
 | Regulatory Monitoring Agent | DPBI Agent | Regulatory updates routed to DPBI agent |
+| Rules Reconciliation Agent | Compliance Roadmap Agent | Prioritised per-Rule gaps feed the roadmap |
+| Rules Reconciliation Agent | Regulatory Monitoring Agent | New notifications trigger re-assessment |
