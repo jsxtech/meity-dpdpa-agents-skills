@@ -1,6 +1,6 @@
 # DPDP Compliance Suite — AI Integration Guide
 
-Practical guide for integrating the DPDP Compliance Suite (17 agents, 17 skills, 142 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
+Practical guide for integrating the DPDP Compliance Suite (18 agents, 17 skills, 149 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
 
 ---
 
@@ -34,6 +34,7 @@ ROUTING LOGIC — Match user intent to the appropriate agent/skill:
   Cross-border data transfer                  → Cross-Border Transfer Agent + Data Localisation Agent
   Annual audit or compliance review           → Audit Compliance Agent + Audit Checklist Skill
   Regulatory change detected                  → Regulatory Monitoring Agent
+  Gap-check against notified DPDP Rules 2025  → Rules Reconciliation Agent
   Anonymising or pseudonymising data          → Anonymisation Agent + AI/ML Ethics Skill
   Privacy policy or notice drafting           → Policy Document Generator Agent
   Consent management or dark patterns         → Consent Management Agent + Consent Manager Skill
@@ -285,7 +286,7 @@ routes:
 
 ## 4. Quick Command Registry
 
-Unified table of all 142 quick commands across 17 skills.
+Unified table of all 149 quick commands across 17 skills.
 
 | Command | Skill File | Capability |
 |---|---|---|
@@ -343,6 +344,9 @@ Unified table of all 142 quick commands across 17 skills.
 | `/cm-withdrawal` | `dpdp-consent-manager-skill.md` | Consent Withdrawal Propagation |
 | `/cm-audit` | `dpdp-consent-manager-skill.md` | Consent Manager Audit & Compliance |
 | `/cm-grievance` | `dpdp-consent-manager-skill.md` | Grievance Handling |
+| `/cm-artefact` | `dpdp-consent-manager-skill.md` | Consent Artefact Generation & Validation |
+| `/cm-interop` | `dpdp-consent-manager-skill.md` | Rule 4(4) Interoperability API Contract |
+| `/cm-withdraw-flow` | `dpdp-consent-manager-skill.md` | Withdrawal-Propagation Sequence |
 | `/penalty-exposure` | `dpdp-penalty-enforcement-skill.md` | Penalty Exposure Assessment |
 | `/aggravating-factors` | `dpdp-penalty-enforcement-skill.md` | Aggravating Factors Assessment |
 | `/mitigating-factors` | `dpdp-penalty-enforcement-skill.md` | Mitigating Factors Evidence |
@@ -375,6 +379,7 @@ Unified table of all 142 quick commands across 17 skills.
 | `/ir-dpbi-draft` | `dpdp-incident-response-skill.md` | DPBI Breach Notification Draft |
 | `/ir-dp-draft` | `dpdp-incident-response-skill.md` | Data Principal Notification Draft |
 | `/ir-review` | `dpdp-incident-response-skill.md` | Post-Incident Review |
+| `/ir-severity` | `dpdp-incident-response-skill.md` | Breach Severity Decision Engine |
 | `/audit-governance` | `dpdp-audit-checklist-skill.md` | Domain 1 — Governance Audit |
 | `/audit-consent` | `dpdp-audit-checklist-skill.md` | Domain 2 — Legal Basis & Consent Audit |
 | `/audit-notice` | `dpdp-audit-checklist-skill.md` | Domain 3 — Notice & Transparency Audit |
@@ -388,6 +393,7 @@ Unified table of all 142 quick commands across 17 skills.
 | `/audit-sdf` | `dpdp-audit-checklist-skill.md` | Domain 12 — SDF Obligations Audit |
 | `/audit-full` | `dpdp-audit-checklist-skill.md` | Full 12-Domain Audit with Scorecard |
 | `/audit-scorecard` | `dpdp-audit-checklist-skill.md` | Compliance Scorecard & Gap Report |
+| `/audit-score` | `dpdp-audit-checklist-skill.md` | Weighted Score & Maturity (Compliance Scoring Engine) |
 | `/risk-identify` | `dpdp-privacy-risk-management-skill.md` | Privacy Risk Identification |
 | `/risk-assess` | `dpdp-privacy-risk-management-skill.md` | Privacy Risk Assessment & Scoring |
 | `/risk-register` | `dpdp-privacy-risk-management-skill.md` | Privacy Risk Register |
@@ -452,7 +458,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 
 - [ ] Load the system prompt from Section 1 into your LLM orchestration layer
 - [ ] Load the routing configuration from Section 3 as a lookup table
-- [ ] Register all 142 quick commands from Section 4 as recognized triggers
+- [ ] Register all 149 quick commands from Section 4 as recognized triggers
 - [ ] Configure hybrid retrieval pipeline (semantic + keyword + reranker)
 - [ ] Set `top_k = 8` with reranking to `top_k = 3` for final context
 
