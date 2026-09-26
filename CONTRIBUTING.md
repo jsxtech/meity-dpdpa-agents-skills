@@ -75,6 +75,9 @@ type: "skill"
 ---
 ```
 
+**Structural note:** One skill intentionally deviates from the standard `## Skill Capabilities` heading:
+- `dpdp-audit-checklist-skill.md` — organises its capabilities as 12 numbered `## Domain N` audit areas (Governance, Consent, Notice, etc.) instead of a single Capabilities section, reflecting its checklist nature. The 12 domains correspond to the `capabilities: 12` count in `manifest.yaml`.
+
 ---
 
 ## Adding a New Scenario
