@@ -29,6 +29,7 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | 15 | `dpdp-regulatory-monitoring-agent.md` | MeITY/DPBI/court monitoring, impact assessment, regulatory alerts, consultation response | DPO, Legal, Compliance |
 | 16 | `dpdp-compliance-roadmap-agent.md` | Phased compliance roadmap, maturity model, progress tracking, resource planning | All Data Fiduciaries |
 | 17 | `dpdp-data-localisation-agent.md` | Data localisation inventory, RBI/SEBI/IRDAI/DoT rules, cloud residency, cross-border ops | All (critical for regulated sectors) |
+| 18 | `dpdp-rules-reconciliation-agent.md` | Per-provision gap assessment against notified DPDP Rules 2025; pending-item watch; remediation routing | DPO, Legal, Compliance |
 
 ---
 
@@ -52,6 +53,7 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | Tracking DPDP Rules / DPBI orders | Agent 15 (regulatory monitoring) |
 | Building a compliance programme from scratch | Agent 16 (compliance roadmap) |
 | Data residency for RBI / SEBI / IRDAI | Agent 17 (data localisation) |
+| Reconciling posture against the notified Rules 2025 | Agent 18 (rules reconciliation) |
 
 ---
 
@@ -70,6 +72,7 @@ Agent 12 (Children)──► Agent 2 (Consent), Agent 5 (DPIA)
 Agent 13 (Anon.)   ──► Agent 5 (DPIA), Agent 10 (Audit)
 Agent 14 (Legit.)  ──► Agent 7 (Policy), Agent 10 (Audit)
 Agent 15 (Reg.)    ──► All agents (updates all on rule changes)
+Agent 18 (Recon.)  ──► Agent 16 (Roadmap), Agent 10 (Audit), Agent 15 (Reg.)
 ─────────────────────────────────────────────────────────────────
 ```
 
