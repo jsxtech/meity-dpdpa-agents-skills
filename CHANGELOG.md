@@ -11,6 +11,24 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v1.6.0] — 2026-09-26
+
+### Added
+- **Three new agents** (22 → 25 agents; workflows 145 → 160):
+  - **Notice & Transparency Agent** (`agents/dpdp-notice-transparency-agent.md`) — Section 5 / Schedule II notices, layered & just-in-time notices, multi-language delivery, versioning. 5 workflows.
+  - **Employee & HR Data Agent** (`agents/dpdp-employee-hr-data-agent.md`) — employee data lifecycle (recruitment→employment→exit), S.7(i) basis, monitoring, exit data. 5 workflows.
+  - **Automated Decision-Making & Profiling Agent** (`agents/dpdp-adm-profiling-agent.md`) — ADM transparency, contestability, DPIA linkage, children's profiling prohibition (S.9(3)), SDF algorithmic audit (Rule 13(5)). 5 workflows.
+- **Three new skills** (21 → 24 skills; capabilities 168 → 189; quick commands 177 → 198, +21):
+  - **Notice Drafting & Localisation Skill** (`skills/dpdp-notice-drafting-skill.md`) — Schedule II templates, layered/just-in-time notices, plain language, Eighth Schedule localisation.
+  - **Data Subject Verification Skill** (`skills/dpdp-identity-verification-skill.md`) — proportionate requester verification, anti-fraud, nominee/guardian checks, data minimisation.
+  - **Cookie & Tracking Consent Skill** (`skills/dpdp-cookie-tracking-skill.md`) — cookie/tracker inventory, no-dark-pattern banners, prior-consent enforcement, SDK governance, consent strings, children tracking ban.
+
+### Changed
+- `manifest.yaml` bumped to 1.6.0 with 3 agent and 3 skill entries added.
+- `README.md`, `agents/README.md`, `skills/README.md`, `ARCHITECTURE.md`, `DECISION_TREE.md`, `INTEGRATION.md`, and `mkdocs.yml` updated for the new agents/skills, routing, command registry (+21), graph nodes/edges, and decision branches.
+
+---
+
 ## [v1.5.0] — 2026-09-26
 
 ### Added
