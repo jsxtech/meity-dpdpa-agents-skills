@@ -11,6 +11,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v1.4.0] — 2026-09-26
+
+### Added
+- **New agent — Rules Reconciliation Agent** (`agents/dpdp-rules-reconciliation-agent.md`): per-provision gap assessment against the notified DPDP Rules 2025, with 7 workflows (intake, per-Rule gap mapping, pending-item watch for Rules 14/23, evidence validation, report generation, remediation routing, re-assessment). Suite agent count 17 → 18; agent workflows 117 → 124.
+- **Breach Severity & Notification Decision Engine** (`examples/breach-severity-decision-engine.md`): deterministic scoring of a breach against the Rule 7(3) severity framework → severity tier (S1–S4), DPBI/CERT-In/Data Principal notification decisions, machine-readable rule set, worked examples. Wired into the Breach Notification Agent (Workflow 2) and the Incident Response skill (new `/ir-severity` command).
+- **Compliance Scoring Engine** (`examples/compliance-scoring-engine.md`): unifies the 60-question Self-Assessment and the 159-control Audit Checklist into a weighted 0–100 score with 5 maturity levels and risk-adjusted remediation priorities. Linked from `SELF_ASSESSMENT.md` and the Audit Checklist skill (new `/audit-score` command).
+- **Consent Manager skill — interoperability deep-dive**: new "Interoperability & Artefact Reference (Rule 4(4))" section with an API contract, consent-request/response JSON, withdrawal-propagation sequence, status-callback contract, and artefact validation rules. Three new commands: `/cm-artefact`, `/cm-interop`, `/cm-withdraw-flow`.
+
+### Changed
+- Skill quick commands 144 → 149 (consent-manager 7→10, incident-response 9→10, audit-checklist 14→15).
+- `manifest.yaml` bumped to 1.4.0; new agent entry added; skill `quick_commands` counts updated.
+- `README.md`, `agents/README.md`, `INTEGRATION.md` (incl. corrected count 142 → 149), `ARCHITECTURE.md`, `DECISION_TREE.md`, and `mkdocs.yml` updated to include the new agent, the two decision engines, and the five new commands.
+
+---
+
 ## [v1.3.2] — 2026-07-12
 
 ### Fixed
