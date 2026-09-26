@@ -47,6 +47,7 @@ nav:
       - Privacy (MeITY): agents/meity-dpdp-privacy-agent.md
       - Regulatory Monitoring: agents/dpdp-regulatory-monitoring-agent.md
       - Rights Request: agents/dpdp-rights-request-agent.md
+      - Rules Reconciliation: agents/dpdp-rules-reconciliation-agent.md
       - SDF Compliance: agents/dpdp-sdf-compliance-agent.md
       - Vendor & Processor: agents/dpdp-vendor-processor-agent.md
   - Skills:
@@ -90,6 +91,8 @@ nav:
       - E-Commerce Checkout (Hindi): examples/consent-notices/ecommerce-checkout-hindi.md
   - Tools:
       - Penalty Exposure Calculator: examples/penalty-exposure-calculator.md
+      - Breach Severity Decision Engine: examples/breach-severity-decision-engine.md
+      - Compliance Scoring Engine: examples/compliance-scoring-engine.md
   - Reference:
       - Self-Assessment: SELF_ASSESSMENT.md
       - Glossary: GLOSSARY.md
