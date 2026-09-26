@@ -21,6 +21,7 @@ flowchart TD
     START --> K{Annual review?}
     START --> L{Regulatory change detected?}
     START --> M{Anonymising data?}
+    START --> N{Gap-check vs Rules 2025?}
 
     A -->|Yes| A1[Compliance Roadmap Agent]
     A1 --> A2[Master Agent]
@@ -57,6 +58,9 @@ flowchart TD
     L -->|Yes| L1[Regulatory Monitoring Agent]
 
     M -->|Yes| M1[Anonymisation Agent]
+
+    N -->|Yes| N1[Rules Reconciliation Agent]
+    N1 --> N2[Compliance Roadmap Agent]
 ```
 
 ---
@@ -77,6 +81,7 @@ flowchart TD
 | Transferring data abroad | Cross-Border Transfer Agent | Data Localisation Agent | International Comparison, Sector-Specific |
 | Annual review | Audit Compliance Agent | — | Audit Checklist, Programme Management |
 | Regulatory change detected | Regulatory Monitoring Agent | — | Sector-Specific |
+| Gap-check against notified Rules 2025 | Rules Reconciliation Agent | Compliance Roadmap Agent, Regulatory Monitoring Agent | Audit Checklist |
 | Anonymising data | Anonymisation Agent | — | AI/ML Ethics |
 | Need to train staff | — | — | Training & Awareness |
 | Need to draft / update privacy policy | Policy Document Generator Agent | — | Privacy by Design |
