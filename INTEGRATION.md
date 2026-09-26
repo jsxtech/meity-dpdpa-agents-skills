@@ -1,6 +1,6 @@
 # DPDP Compliance Suite — AI Integration Guide
 
-Practical guide for integrating the DPDP Compliance Suite (22 agents, 21 skills, 177 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
+Practical guide for integrating the DPDP Compliance Suite (25 agents, 24 skills, 198 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
 
 ---
 
@@ -39,6 +39,9 @@ ROUTING LOGIC — Match user intent to the appropriate agent/skill:
   Nomination or deceased-data handling        → Nomination Agent
   Data Principal grievance                    → Grievance Redressal Agent
   Consent renewal or re-consent               → Consent Renewal Agent
+  Notice drafting or transparency             → Notice & Transparency Agent + Notice Drafting Skill
+  Employee or HR data processing              → Employee & HR Data Agent
+  Automated decision-making or profiling      → ADM & Profiling Agent + AI/ML Ethics Skill
   Anonymising or pseudonymising data          → Anonymisation Agent + AI/ML Ethics Skill
   Privacy policy or notice drafting           → Policy Document Generator Agent
   Consent management or dark patterns         → Consent Management Agent + Consent Manager Skill
@@ -290,7 +293,7 @@ routes:
 
 ## 4. Quick Command Registry
 
-Unified table of all 177 quick commands across 21 skills.
+Unified table of all 198 quick commands across 24 skills.
 
 | Command | Skill File | Capability |
 |---|---|---|
@@ -469,6 +472,27 @@ Unified table of all 177 quick commands across 21 skills.
 | `/forensics-timeline` | `dpdp-breach-forensics-skill.md` | Timeline Reconstruction |
 | `/forensics-report` | `dpdp-breach-forensics-skill.md` | Forensic Report for DPBI |
 | `/forensics-harden` | `dpdp-breach-forensics-skill.md` | Post-Incident Hardening |
+| `/notice-template` | `dpdp-notice-drafting-skill.md` | Schedule II Notice Template |
+| `/notice-layered` | `dpdp-notice-drafting-skill.md` | Layered Notice Pattern |
+| `/notice-jit` | `dpdp-notice-drafting-skill.md` | Just-in-Time Notice Snippets |
+| `/notice-plain` | `dpdp-notice-drafting-skill.md` | Plain-Language Rewriting |
+| `/notice-localise` | `dpdp-notice-drafting-skill.md` | Multi-Language Localisation |
+| `/notice-child` | `dpdp-notice-drafting-skill.md` | Child-Appropriate Notice |
+| `/notice-version` | `dpdp-notice-drafting-skill.md` | Notice Versioning & Change Log |
+| `/idv-level` | `dpdp-identity-verification-skill.md` | Proportionate Verification Level |
+| `/idv-methods` | `dpdp-identity-verification-skill.md` | Verification Methods |
+| `/idv-minimise` | `dpdp-identity-verification-skill.md` | Data-Minimising Verification |
+| `/idv-nominee` | `dpdp-identity-verification-skill.md` | Nominee & Guardian Verification |
+| `/idv-antifraud` | `dpdp-identity-verification-skill.md` | Anti-Fraud & Impersonation Controls |
+| `/idv-failed` | `dpdp-identity-verification-skill.md` | Failed-Verification Handling |
+| `/idv-audit` | `dpdp-identity-verification-skill.md` | Verification Audit Trail |
+| `/cookie-inventory` | `dpdp-cookie-tracking-skill.md` | Cookie & Tracker Inventory |
+| `/cookie-banner` | `dpdp-cookie-tracking-skill.md` | Consent Banner Design |
+| `/cookie-prior-consent` | `dpdp-cookie-tracking-skill.md` | Prior-Consent Enforcement |
+| `/cookie-string` | `dpdp-cookie-tracking-skill.md` | Consent-String Management |
+| `/cookie-sdk-governance` | `dpdp-cookie-tracking-skill.md` | SDK & Tag Governance |
+| `/cookie-children` | `dpdp-cookie-tracking-skill.md` | Children & Tracking Prohibition |
+| `/cookie-withdraw` | `dpdp-cookie-tracking-skill.md` | Consent Withdrawal & Re-Prompt |
 
 ---
 
@@ -490,7 +514,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 
 - [ ] Load the system prompt from Section 1 into your LLM orchestration layer
 - [ ] Load the routing configuration from Section 3 as a lookup table
-- [ ] Register all 177 quick commands from Section 4 as recognized triggers
+- [ ] Register all 198 quick commands from Section 4 as recognized triggers
 - [ ] Configure hybrid retrieval pipeline (semantic + keyword + reranker)
 - [ ] Set `top_k = 8` with reranking to `top_k = 3` for final context
 
