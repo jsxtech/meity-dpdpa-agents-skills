@@ -36,6 +36,8 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 22 | `dpdp-notice-drafting-skill.md` | Schedule II notice templates, layered/just-in-time notices, plain language, localisation | Legal, Product, UX Writers, DPO |
 | 23 | `dpdp-identity-verification-skill.md` | Proportionate requester verification, anti-fraud, nominee/guardian checks, data minimisation | Rights Teams, DPO, Security, Support |
 | 24 | `dpdp-cookie-tracking-skill.md` | Cookie/tracker inventory, no-dark-pattern banners, prior consent, SDK governance, consent strings | Web/App Engineers, MarTech, Product, DPO |
+| 25 | `dpdp-intra-group-transfer-skill.md` | Group-company data sharing, intra-group agreements, controller/processor roles, cross-border overlay | Group DPOs, Legal, Corporate Compliance |
+| 26 | `dpdp-ropa-generator-skill.md` | RoPA field schema, generation from inventory, lawful-basis & retention linkage, DPBI-ready export | DPO, Privacy Analysts, IT, Compliance |
 
 ---
 
@@ -67,6 +69,8 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | Drafting and localising notices | Skill 22 (Notice Drafting) |
 | Verifying identity of rights requesters | Skill 23 (Identity Verification) |
 | Cookie/tracking consent and SDK governance | Skill 24 (Cookie & Tracking) |
+| Sharing data between group companies | Skill 25 (Intra-Group Transfer) |
+| Generating a Records of Processing Activities | Skill 26 (RoPA Generator) |
 
 ---
 
@@ -98,7 +102,9 @@ Each skill provides detailed capabilities, step-by-step execution guides, templa
 | 22 | Notice Drafting & Localisation | 7 | 7 |
 | 23 | Identity Verification | 7 | 7 |
 | 24 | Cookie & Tracking Consent | 7 | 7 |
-| **TOTAL** | | **189 capabilities** | **198 commands** |
+| 25 | Intra-Group Transfer | 7 | 7 |
+| 26 | RoPA Generation | 7 | 7 |
+| **TOTAL** | | **203 capabilities** | **212 commands** |
 
 ---
 
@@ -133,6 +139,7 @@ Each skill connects to the detailed workflow agents in `/agents/`:
 | `dpdp-notice-transparency-agent.md` | Notice & transparency |
 | `dpdp-employee-hr-data-agent.md` | Employee & HR data |
 | `dpdp-adm-profiling-agent.md` | Automated decision-making & profiling |
+| `dpdp-dsar-metrics-agent.md` | Grievance & DSAR metrics |
 
 ---
 
