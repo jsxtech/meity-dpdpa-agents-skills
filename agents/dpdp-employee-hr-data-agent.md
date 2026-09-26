@@ -10,17 +10,17 @@ type: "agent"
 
 ## Overview
 
-This agent orchestrates DPDP compliance across the **employee data lifecycle** — recruitment, employment, and exit — under the **Digital Personal Data Protection Act, 2023**. It ties together the **Section 7(i) legitimate use for employment**, consent where employment legitimate use does not apply, retention, and Data Principal rights as they apply to employees. It provides the HR-specific orchestration that the Legitimate Use Agent (grounds) and Consent Agent (permission) do not cover end-to-end.
+This agent orchestrates DPDP compliance across the **employee data lifecycle** — recruitment, employment, and exit — under the **Digital Personal Data Protection Act, 2023**. It ties together the **Section 7(f) legitimate use for employment**, consent where employment legitimate use does not apply, retention, and Data Principal rights as they apply to employees. It provides the HR-specific orchestration that the Legitimate Use Agent (grounds) and Consent Agent (permission) do not cover end-to-end.
 
 ---
 
 ## Employment Data Basis
 
-> **Section 7(i):** A Data Fiduciary may process personal data for **employment purposes** — including to safeguard the employer from loss or liability, prevent corporate espionage, maintain confidentiality of trade secrets/IP, or provide a service or benefit to an employee — as a **legitimate use** without separate consent. Processing **outside** these employment purposes (e.g., wellness apps, optional benefits, marketing) still requires **consent**.
+> **Section 7(f):** A Data Fiduciary may process personal data for **employment purposes** — including to safeguard the employer from loss or liability, prevent corporate espionage, maintain confidentiality of trade secrets/IP, or provide a service or benefit to an employee — as a **legitimate use** without separate consent. Processing **outside** these employment purposes (e.g., wellness apps, optional benefits, marketing) still requires **consent**.
 
 | HR Processing | Likely Basis |
 |---|---|
-| Payroll, attendance, performance | Legitimate use (S.7(i)) |
+| Payroll, attendance, performance | Legitimate use (S.7(f)) |
 | Statutory filings (PF, ESI, tax) | Legal obligation / legitimate use |
 | Background verification | Legitimate use / consent (context-dependent) |
 | Biometric attendance | Consent (often) — assess necessity |
@@ -66,7 +66,7 @@ This agent orchestrates DPDP compliance across the **employee data lifecycle** �
 **Trigger:** Ongoing employee data processing.
 
 **Steps:**
-1. Apply the S.7(i) employment legitimate use where valid; document the purpose.
+1. Apply the S.7(f) employment legitimate use where valid; document the purpose.
 2. For processing outside employment purposes, obtain consent (coordinate with Consent Agent).
 3. Assess high-risk processing (biometrics, monitoring) for necessity and DPIA.
 4. Provide employees a means to exercise rights and raise grievances.
@@ -105,7 +105,7 @@ This agent orchestrates DPDP compliance across the **employee data lifecycle** �
 
 ## Related Agents
 
-- `dpdp-legitimate-use-agent.md` — Section 7(i) employment ground
+- `dpdp-legitimate-use-agent.md` — Section 7(f) employment ground
 - `dpdp-consent-management-agent.md` — Consent for non-employment HR processing
 - `dpdp-retention-erasure-agent.md` — Candidate and exit-data retention/erasure
 - `dpdp-dpia-agent.md` — DPIA for employee monitoring
@@ -130,5 +130,5 @@ For the full penalty schedule, see `meity-dpdp-privacy-agent.md` — Penalty Ref
 
 ## References
 
-- DPDP Act, 2023 — Section 7(i) (employment legitimate use), Sections 5, 6, 8, 11–14
+- DPDP Act, 2023 — Section 7(f) (employment legitimate use), Sections 5, 6, 8, 11–14
 - MeITY DPDP Rules, 2025 (Notified)

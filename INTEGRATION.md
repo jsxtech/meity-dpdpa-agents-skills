@@ -444,7 +444,7 @@ Unified table of all 198 quick commands across 24 skills.
 | `/programme-culture` | `dpdp-privacy-programme-management-skill.md` | Privacy Culture Assessment |
 | `/programme-improvement` | `dpdp-privacy-programme-management-skill.md` | Continuous Improvement Cycle |
 | `/programme-reports` | `dpdp-privacy-programme-management-skill.md` | Privacy Reporting Suite |
-| `/retention-map` | `dpdp-retention-schedule-skill.md` | Retention Period Mapping |
+| `/retention-periods` | `dpdp-retention-schedule-skill.md` | Retention Period Mapping |
 | `/retention-schedule` | `dpdp-retention-schedule-skill.md` | Retention Schedule Template |
 | `/retention-delete-flow` | `dpdp-retention-schedule-skill.md` | Deletion Workflow Patterns |
 | `/retention-legal-hold` | `dpdp-retention-schedule-skill.md` | Legal Hold Handling |

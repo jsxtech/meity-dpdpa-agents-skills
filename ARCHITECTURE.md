@@ -190,5 +190,5 @@ graph LR
 | Grievance Redressal Agent | DPBI Complaint Response Agent | Escalates exhausted grievances |
 | Consent Renewal Agent | Consent Management Agent | Refreshes and re-collects consent |
 | Notice & Transparency Agent | Consent Management Agent | Notice supports and precedes consent |
-| Employee & HR Data Agent | Legitimate Use Agent | Employment processing basis (S.7(i)) |
+| Employee & HR Data Agent | Legitimate Use Agent | Employment processing basis (S.7(f)) |
 | ADM & Profiling Agent | DPIA Agent | DPIA for high-risk automated decisions |

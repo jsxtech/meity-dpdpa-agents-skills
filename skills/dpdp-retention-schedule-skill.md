@@ -85,7 +85,7 @@ Maintain erasure logs (system, timestamp, record count) and produce retention-co
 
 | Command | Action |
 |---|---|
-| `/retention-map` | Map processing purposes to retention drivers and periods |
+| `/retention-periods` | Map processing purposes to retention drivers and periods |
 | `/retention-schedule` | Generate a documented per-purpose retention schedule |
 | `/retention-delete-flow` | Design a deletion workflow across all data stores |
 | `/retention-legal-hold` | Place, track, or release a legal hold |

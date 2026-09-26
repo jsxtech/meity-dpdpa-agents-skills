@@ -35,7 +35,7 @@ Each agent covers a specific compliance domain with detailed workflows, checklis
 | 21 | `dpdp-grievance-redressal-agent.md` | Grievance mechanism, 30-day SLA, escalation, DPBI handoff (S.13, Rule 10(2)) | All Data Fiduciaries |
 | 22 | `dpdp-consent-renewal-agent.md` | Consent renewal, re-consent on purpose change, expiry, child-to-adult transition | All Data Fiduciaries |
 | 23 | `dpdp-notice-transparency-agent.md` | Section 5 / Schedule II notices, layered & just-in-time notices, multi-language, versioning | All Data Fiduciaries |
-| 24 | `dpdp-employee-hr-data-agent.md` | Employee data lifecycle (recruitment→employment→exit), S.7(i) basis, monitoring, exit data | Employers, HR, DPO, Legal |
+| 24 | `dpdp-employee-hr-data-agent.md` | Employee data lifecycle (recruitment→employment→exit), S.7(f) basis, monitoring, exit data | Employers, HR, DPO, Legal |
 | 25 | `dpdp-adm-profiling-agent.md` | Automated decisions & profiling: transparency, contestability, DPIA, children's profiling ban | Data Science, Product, DPO, Legal |
 
 ---
