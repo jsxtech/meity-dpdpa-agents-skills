@@ -127,5 +127,5 @@ For the full penalty schedule, see `meity-dpdp-privacy-agent.md` — Penalty Ref
 
 ## References
 
-- DPDP Act, 2023 — Section 13 (grievance redressal), Section 8(10) (grievance obligation)
+- DPDP Act, 2023 — Section 13 (right to grievance redressal), Section 8(9) (obligation to publish grievance/contact details)
 - MeITY DPDP Rules, 2025 — Rule 10(2) (30-day grievance timeline)
