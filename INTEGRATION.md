@@ -1,6 +1,6 @@
 # DPDP Compliance Suite — AI Integration Guide
 
-Practical guide for integrating the DPDP Compliance Suite (18 agents, 17 skills, 149 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
+Practical guide for integrating the DPDP Compliance Suite (22 agents, 21 skills, 177 quick commands) into LLM-based AI assistants, RAG pipelines, and automated compliance workflows.
 
 ---
 
@@ -35,6 +35,10 @@ ROUTING LOGIC — Match user intent to the appropriate agent/skill:
   Annual audit or compliance review           → Audit Compliance Agent + Audit Checklist Skill
   Regulatory change detected                  → Regulatory Monitoring Agent
   Gap-check against notified DPDP Rules 2025  → Rules Reconciliation Agent
+  Data retention or erasure                   → Retention & Erasure Agent + Retention Schedule Skill
+  Nomination or deceased-data handling        → Nomination Agent
+  Data Principal grievance                    → Grievance Redressal Agent
+  Consent renewal or re-consent               → Consent Renewal Agent
   Anonymising or pseudonymising data          → Anonymisation Agent + AI/ML Ethics Skill
   Privacy policy or notice drafting           → Policy Document Generator Agent
   Consent management or dark patterns         → Consent Management Agent + Consent Manager Skill
@@ -286,7 +290,7 @@ routes:
 
 ## 4. Quick Command Registry
 
-Unified table of all 149 quick commands across 17 skills.
+Unified table of all 177 quick commands across 21 skills.
 
 | Command | Skill File | Capability |
 |---|---|---|
@@ -437,6 +441,34 @@ Unified table of all 149 quick commands across 17 skills.
 | `/programme-culture` | `dpdp-privacy-programme-management-skill.md` | Privacy Culture Assessment |
 | `/programme-improvement` | `dpdp-privacy-programme-management-skill.md` | Continuous Improvement Cycle |
 | `/programme-reports` | `dpdp-privacy-programme-management-skill.md` | Privacy Reporting Suite |
+| `/retention-map` | `dpdp-retention-schedule-skill.md` | Retention Period Mapping |
+| `/retention-schedule` | `dpdp-retention-schedule-skill.md` | Retention Schedule Template |
+| `/retention-delete-flow` | `dpdp-retention-schedule-skill.md` | Deletion Workflow Patterns |
+| `/retention-legal-hold` | `dpdp-retention-schedule-skill.md` | Legal Hold Handling |
+| `/retention-backups` | `dpdp-retention-schedule-skill.md` | Backup & Replica Erasure Planning |
+| `/retention-anonymise` | `dpdp-retention-schedule-skill.md` | Anonymisation-in-Lieu-of-Erasure |
+| `/retention-evidence` | `dpdp-retention-schedule-skill.md` | Retention Evidence & Reporting |
+| `/vendor-tier` | `dpdp-vendor-risk-skill.md` | Vendor Risk Tiering |
+| `/vendor-questionnaire` | `dpdp-vendor-risk-skill.md` | Due-Diligence Questionnaire |
+| `/vendor-score` | `dpdp-vendor-risk-skill.md` | Vendor Risk Scoring Rubric |
+| `/vendor-subprocessor` | `dpdp-vendor-risk-skill.md` | Sub-Processor Assessment |
+| `/vendor-controls` | `dpdp-vendor-risk-skill.md` | Contractual Control Mapping |
+| `/vendor-monitor` | `dpdp-vendor-risk-skill.md` | Ongoing Vendor Monitoring |
+| `/vendor-offboard` | `dpdp-vendor-risk-skill.md` | Vendor Offboarding Risk |
+| `/startup-mvc` | `dpdp-startup-msme-skill.md` | Minimum Viable Compliance |
+| `/startup-consent` | `dpdp-startup-msme-skill.md` | Lean Consent & Notice |
+| `/startup-dpo` | `dpdp-startup-msme-skill.md` | Founder/Fractional DPO Model |
+| `/startup-security` | `dpdp-startup-msme-skill.md` | Low-Cost Security Baseline |
+| `/startup-roadmap` | `dpdp-startup-msme-skill.md` | Phased Roadmap for Growth |
+| `/startup-exemption-watch` | `dpdp-startup-msme-skill.md` | Exemption & Threshold Watch |
+| `/startup-dd-ready` | `dpdp-startup-msme-skill.md` | Investor/Due-Diligence Readiness |
+| `/forensics-preserve` | `dpdp-breach-forensics-skill.md` | Evidence Preservation |
+| `/forensics-custody` | `dpdp-breach-forensics-skill.md` | Chain of Custody |
+| `/forensics-scope` | `dpdp-breach-forensics-skill.md` | Scope & Impact Determination |
+| `/forensics-rca` | `dpdp-breach-forensics-skill.md` | Root-Cause Analysis |
+| `/forensics-timeline` | `dpdp-breach-forensics-skill.md` | Timeline Reconstruction |
+| `/forensics-report` | `dpdp-breach-forensics-skill.md` | Forensic Report for DPBI |
+| `/forensics-harden` | `dpdp-breach-forensics-skill.md` | Post-Incident Hardening |
 
 ---
 
@@ -458,7 +490,7 @@ Step-by-step checklist to deploy the DPDP Compliance Suite as an AI assistant.
 
 - [ ] Load the system prompt from Section 1 into your LLM orchestration layer
 - [ ] Load the routing configuration from Section 3 as a lookup table
-- [ ] Register all 149 quick commands from Section 4 as recognized triggers
+- [ ] Register all 177 quick commands from Section 4 as recognized triggers
 - [ ] Configure hybrid retrieval pipeline (semantic + keyword + reranker)
 - [ ] Set `top_k = 8` with reranking to `top_k = 3` for final context
 
