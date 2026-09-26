@@ -10,7 +10,7 @@
 | No profiling / tracking of children | DPDP S.9(3) | Behavioural monitoring, targeted ads strictly prohibited |
 | Age verification | DPDP S.9(1) | Platform must reliably verify user age before processing |
 | Teacher/staff employment data | DPDP S.7(f) | Legitimate use — consent not required for employment purposes |
-| School as Data Fiduciary | DPDP S.2(i) | Institution determines purpose/means; bears compliance burden |
+| School as Data Fiduciary | DPDP S.2(5) | Institution determines purpose/means; bears compliance burden |
 | Breach notification | DPDP S.8(6) | Notify DPBI; child data breaches attract highest scrutiny |
 
 ## Recommended Agent Sequence
@@ -61,7 +61,7 @@
 - **Parental consent collected once and never refreshed** — Consent obtained at initial registration may not cover new features, data uses, or third-party integrations added later. Each new purpose requires fresh, specific parental consent.
 - **Teacher and staff data treated as exempt from DPDP** — While employment-related processing falls under S.7(f) legitimate use, this does not cover all teacher data. Biometric attendance, performance analytics, or sharing data with third-party HR platforms requires separate consent or a documented lawful basis.
 - **Student data retained long after enrolment ends** — Many platforms keep student profiles, learning history, and assessment data indefinitely for "product improvement." DPDP S.8 requires erasure once the educational purpose is served, unless a statutory retention period applies.
-- **Schools unaware they are Data Fiduciaries** — Institutions often assume the edtech vendor bears all compliance responsibility. Under DPDP S.2(i), the school that determines the purpose and means of processing is the Data Fiduciary and carries the primary compliance burden.
+- **Schools unaware they are Data Fiduciaries** — Institutions often assume the edtech vendor bears all compliance responsibility. Under DPDP S.2(5), the school that determines the purpose and means of processing is the Data Fiduciary and carries the primary compliance burden.
 
 ## Regulator-Specific Timelines
 
