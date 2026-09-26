@@ -38,14 +38,18 @@ nav:
       - Children Data: agents/dpdp-children-data-agent.md
       - Compliance Roadmap: agents/dpdp-compliance-roadmap-agent.md
       - Consent Management: agents/dpdp-consent-management-agent.md
+      - Consent Renewal: agents/dpdp-consent-renewal-agent.md
       - Cross-Border Transfer: agents/dpdp-cross-border-transfer-agent.md
       - Data Localisation: agents/dpdp-data-localisation-agent.md
       - DPIA: agents/dpdp-dpia-agent.md
       - DPBI Complaint Response: agents/dpdp-dpbi-complaint-response-agent.md
+      - Grievance Redressal: agents/dpdp-grievance-redressal-agent.md
       - Legitimate Use: agents/dpdp-legitimate-use-agent.md
+      - Nomination & Deceased Data: agents/dpdp-nomination-agent.md
       - Policy Document Generator: agents/dpdp-policy-document-generator-agent.md
       - Privacy (MeITY): agents/meity-dpdp-privacy-agent.md
       - Regulatory Monitoring: agents/dpdp-regulatory-monitoring-agent.md
+      - Retention & Erasure: agents/dpdp-retention-erasure-agent.md
       - Rights Request: agents/dpdp-rights-request-agent.md
       - Rules Reconciliation: agents/dpdp-rules-reconciliation-agent.md
       - SDF Compliance: agents/dpdp-sdf-compliance-agent.md
@@ -54,6 +58,7 @@ nav:
       - Overview: skills/README.md
       - AI/ML Ethics: skills/dpdp-ai-ml-ethics-skill.md
       - Audit Checklist: skills/dpdp-audit-checklist-skill.md
+      - Breach Forensics: skills/dpdp-breach-forensics-skill.md
       - Children Data: skills/dpdp-children-data-skill.md
       - Consent Manager: skills/dpdp-consent-manager-skill.md
       - Contract Clauses: skills/dpdp-contract-clauses-skill.md
@@ -67,8 +72,11 @@ nav:
       - Privacy by Design: skills/dpdp-privacy-by-design-skill.md
       - Privacy Programme Management: skills/dpdp-privacy-programme-management-skill.md
       - Privacy Risk Management: skills/dpdp-privacy-risk-management-skill.md
+      - Retention Schedule: skills/dpdp-retention-schedule-skill.md
       - Sector-Specific: skills/dpdp-sector-specific-skill.md
+      - Startup & MSME: skills/dpdp-startup-msme-skill.md
       - Training & Awareness: skills/dpdp-training-awareness-skill.md
+      - Vendor Risk: skills/dpdp-vendor-risk-skill.md
   - Examples:
       - Startup App Launch: examples/scenario-startup-app-launch.md
       - Bank SDF Designation: examples/scenario-bank-sdf-designation.md
