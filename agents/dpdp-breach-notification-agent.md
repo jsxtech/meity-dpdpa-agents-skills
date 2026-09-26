@@ -1,6 +1,6 @@
 ---
-version: "1.3.2"
-last_updated: "2026-07-12"
+version: "1.4.0"
+last_updated: "2026-09-26"
 dpdp_rules_version: "notified-2025"
 domain: "Breach Notification"
 type: "agent"
@@ -77,14 +77,14 @@ A **personal data breach** means any unauthorised processing of personal data or
    - Time period of exposure
    - Systems / data stores involved
 
-2. Classify **severity**:
+2. Classify **severity** using the deterministic [Breach Severity & Notification Decision Engine](../examples/breach-severity-decision-engine.md), which scores the incident against the Rule 7(3) framework and yields a tier (S1–S4):
 
    | Severity | Criteria |
    |---|---|
-   | Critical | Sensitive data (health, financial, children), large scale, likely severe harm |
-   | High | Moderate-sensitivity data, significant number of individuals |
-   | Medium | Low-sensitivity data, limited scope, harm unlikely but possible |
-   | Low | Internal data only, no external exposure, no harm likely |
+   | S1 — Critical | Sensitive data (health, financial, children), large scale, likely severe harm |
+   | S2 — High | Moderate-sensitivity data, significant number of individuals |
+   | S3 — Moderate | Low-sensitivity data, limited scope, harm unlikely but possible |
+   | S4 — Low | Internal data only, no external exposure, no harm likely |
 
 3. Assess **likely harm** to Data Principals:
    - Financial loss
